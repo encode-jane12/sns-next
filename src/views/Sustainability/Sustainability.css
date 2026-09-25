@@ -1,0 +1,614 @@
+.sustainability-page {
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  color: #03466E;
+  background-color: #fff;
+  padding-top: 80px;
+}
+
+.sustainability-container {
+  width: 92%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Breadcrumbs */
+.sustainability-breadcrumbs {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  color: #03466E;
+}
+
+.crumb-link {
+  color: #03466E;
+  text-decoration: none;
+}
+
+.crumb-link:hover {
+  text-decoration: underline;
+}
+
+.crumb-current {
+  color: #03466E;
+}
+
+/* Hero Section */
+.sustainability-hero-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.sustainability-hero-top-grid {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 40px;
+  align-items: flex-start;
+}
+
+.sustainability-hero-heading-col {
+  flex: 0 0 auto;
+}
+
+.sustainability-hero-heading {
+  font-size: 64px;
+  font-weight: 400;
+  color: #03466E;
+  margin: 0;
+  line-height: 1.1;
+  padding: 8px 16px;
+  display: inline-block;
+}
+
+.sustainability-hero-text-col {
+  flex: 1;
+  padding-top: 16px;
+}
+
+.sustainability-hero-text-col p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 400;
+  color: #03466E;
+}
+
+.sustainability-hero-bg {
+  width: 100%;
+  height: 60vh;
+  min-height: 500px;
+}
+
+.sustainability-hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Sustainable Innovation Section */
+.innovation-section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 400;
+  color: #03466E;
+  margin: 0 0 60px 0;
+}
+
+.innovation-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 60px;
+  column-gap: 32px;
+}
+
+.innovation-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.innov-icon {
+  font-size: 32px;
+  margin-bottom: 16px;
+  color: #03466E;
+}
+
+.innovation-card p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #03466E;
+  margin: 0 0 16px 0;
+}
+
+.plus-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #03466E;
+  background-color: #03466E;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.plus-circle.white {
+  background-color: white;
+  color: #03466E;
+  border-color: white;
+}
+
+/* Target Banner Section */
+.target-banner-section {
+  background-color: #03466E;
+  color: white;
+  padding: 80px 0;
+}
+
+.target-grid {
+  display: flex;
+  gap: 60px;
+}
+
+.target-left {
+  flex: 0 0 30%;
+}
+
+.target-left h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.target-right {
+  flex: 1;
+}
+
+.target-right p {
+  font-size: 28px;
+  line-height: 1.4;
+  margin: 0;
+  font-weight: 300;
+}
+
+/* Sustainable Solutions Section */
+.solutions-section {
+  padding: 100px 0;
+}
+
+.solutions-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.solutions-header-left h2 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #03466E;
+  margin: 0;
+}
+
+.solutions-header-right {
+  flex: 0 0 40%;
+}
+
+.solutions-header-right p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #03466E;
+  margin: 0;
+}
+
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.solution-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.solution-card img {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.solution-title-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.solution-title-flex h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #03466E;
+  margin: 0;
+}
+
+.solution-card-body p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+/* Consulting Section (Dark Blue) */
+.consulting-section {
+  background-color: #03466E;
+  color: white;
+  padding: 80px 0;
+}
+
+.consulting-flex {
+  display: flex;
+  gap: 60px;
+}
+
+.consulting-left {
+  flex: 0 0 30%;
+}
+
+.consulting-left h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.consulting-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.consulting-card {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 240px;
+}
+
+.consulting-icon {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.consulting-card h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0 0 12px 0;
+}
+
+.consulting-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 0 24px 0;
+}
+
+/* Learn More Section */
+.learn-more-section {
+  padding: 80px 0;
+  border-top: 1px solid #ccc;
+  margin-top: 80px;
+}
+
+.learn-more-title {
+  font-size: 56px;
+  font-weight: 400;
+  color: #03466E;
+  margin: 0 0 40px 0;
+  line-height: 1.1;
+}
+
+.learn-more-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.sustainability-learn-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #03466E;
+}
+
+.sustainability-learn-card img {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.sustainability-learn-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sustainability-learn-tag {
+  font-size: 11px;
+  font-weight: 600;
+  color: #03466E;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.sustainability-learn-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #03466E;
+  margin: 0 0 12px 0;
+  line-height: 1.25;
+}
+
+.sustainability-learn-desc {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #222;
+  margin: 0;
+}
+
+.slider-bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.slider-progress-track {
+  flex: 1;
+  height: 2px;
+  background-color: #e5e5e5;
+}
+
+.slider-progress-fill {
+  width: 25%;
+  height: 100%;
+  background-color: #8faadb;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.control-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f0f0f0;
+  color: #03466E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.control-btn.next {
+  background-color: #03466E;
+  color: white;
+}
+
+/* Resources Section */
+.resources-section {
+  padding: 80px 0;
+  border-top: 1px solid #eee;
+}
+
+.resources-flex {
+  display: flex;
+  gap: 60px;
+}
+
+.resources-left {
+  flex: 0 0 30%;
+}
+
+.resources-left h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #03466E;
+  margin: 0;
+}
+
+.resources-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.resource-link-card {
+  background-color: #f8f9fa;
+  padding: 24px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.resource-text h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #03466E;
+  margin: 0 0 4px 0;
+}
+
+.resource-text p {
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+}
+
+.ext-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #FF2828;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+/* Contact Section */
+.sustainability-contact-section {
+  background-color: #03466E;
+  color: white;
+  padding: 80px 0;
+}
+
+.contact-flex {
+  display: flex;
+  gap: 60px;
+  position: relative;
+}
+
+.contact-left {
+  flex: 0 0 25%;
+}
+
+.contact-left h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.contact-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-card img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.contact-dept {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.contact-info h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 4px 0;
+}
+
+.contact-info p {
+  font-size: 14px;
+  margin: 0 0 24px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-accent-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #03466E;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+/* Scroll To Top */
+.scroll-to-top-col {
+  display: flex;
+  align-items: flex-end;
+}
+
+.scroll-top-btn {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .sustainability-hero-top-grid,
+  .target-grid,
+  .solutions-header,
+  .consulting-flex,
+  .resources-flex,
+  .contact-flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .innovation-grid,
+  .solutions-grid,
+  .consulting-right,
+  .learn-more-grid,
+  .resources-right,
+  .contact-right {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .sustainability-hero-heading {
+    font-size: 40px;
+  }
+
+  .innovation-grid,
+  .solutions-grid,
+  .consulting-right,
+  .learn-more-grid,
+  .resources-right,
+  .contact-right {
+    grid-template-columns: 1fr;
+  }
+}

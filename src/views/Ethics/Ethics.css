@@ -1,0 +1,464 @@
+/* ===== Ethics Page Styling ===== */
+
+.ethics-page {
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  color: #1a1a2e;
+  background-color: #ffffff;
+  padding-bottom: 90px;
+}
+
+.ethics-container {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* ===== Breadcrumbs & Hero ===== */
+.ethics-hero-wrapper {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+}
+
+.ethics-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 32px;
+}
+
+.crumb-link {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.crumb-link:hover {
+  color: #03466E;
+  text-decoration: underline;
+}
+
+.crumb-current {
+  color: #03466E;
+  font-weight: 500;
+}
+
+.crumb-separator {
+  color: #aaa;
+}
+
+.ethics-hero-header {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+  align-items: flex-start;
+  margin-bottom: 48px;
+}
+
+.ethics-hero-title {
+  font-size: clamp(2.8rem, 5.5vw, 4.5rem);
+  font-weight: 700;
+  color: #03466E;
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.ethics-hero-subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #334155;
+  margin: 0;
+  font-weight: 400;
+}
+
+.ethics-hero-media {
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ethics-hero-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ===== Code of Conduct Section ===== */
+.ethics-code-section {
+  padding: 90px 0;
+}
+
+.code-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.code-heading {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 600;
+  color: #03466E;
+  margin: 0 0 20px 0;
+  line-height: 1.2;
+}
+
+.code-desc {
+  font-size: 16px;
+  line-height: 1.65;
+  color: #334155;
+  margin: 0 0 32px 0;
+}
+
+.code-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #03466E;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.code-link:hover {
+  color: #FF2828;
+}
+
+.code-image-col {
+  width: 100%;
+  height: 420px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.code-image-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ===== Values Banner ===== */
+.ethics-values-banner {
+  background-color: #03466E;
+  color: #ffffff;
+  padding: 90px 0;
+}
+
+.values-inner {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.values-left h2 {
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.values-right-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 60px;
+}
+
+.value-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+}
+
+.value-card p {
+  font-size: 14px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.88);
+  margin: 0;
+}
+
+/* ===== Ethics in Action Section ===== */
+.ethics-action-section {
+  padding: 90px 0;
+}
+
+.action-header-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 48px;
+  align-items: flex-start;
+}
+
+.action-heading {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 600;
+  color: #03466E;
+  margin: 0;
+}
+
+.action-header-right p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #334155;
+  margin: 0;
+}
+
+.action-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.action-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.action-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+}
+
+.action-card-primary {
+  background-color: #03466E;
+  color: #ffffff;
+}
+
+.action-card-icon {
+  margin-bottom: 24px;
+}
+
+.action-card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #03466E;
+  margin: 0 0 12px 0;
+}
+
+.action-card-primary h3 {
+  color: #ffffff;
+}
+
+.action-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #475569;
+  margin: 0;
+}
+
+.action-card-primary p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* ===== Report Banner ===== */
+.ethics-report-banner {
+  background-color: #03466E;
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+.report-inner {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.report-left h2 {
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.report-right p {
+  font-size: 16px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0 0 28px 0;
+}
+
+.report-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #FF2828;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.report-btn:hover {
+  background-color: #CC2020;
+}
+
+/* ===== Related Section ===== */
+.ethics-related-section {
+  padding: 90px 0;
+}
+
+.related-heading {
+  font-size: clamp(2rem, 3.5vw, 2.5rem);
+  font-weight: 600;
+  color: #03466E;
+  margin: 0 0 40px 0;
+}
+
+.related-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 32px;
+}
+
+.related-item {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 24px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.related-item:hover {
+  background-color: #f1f5f9;
+}
+
+.related-info h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #03466E;
+  margin: 0 0 4px 0;
+}
+
+.related-info span {
+  font-size: 13px;
+  color: #64748b;
+}
+
+/* ===== Learn More Section ===== */
+.ethics-learn-section {
+  padding: 80px 0 0;
+  border-top: 1px solid #e2e8f0;
+}
+
+.learn-heading {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 600;
+  color: #03466E;
+  margin: 0 0 48px 0;
+}
+
+.learn-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.learn-card {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.learn-img-holder {
+  width: 100%;
+  height: 240px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.learn-img-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.learn-card:hover .learn-img-holder img {
+  transform: scale(1.04);
+}
+
+.learn-tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748b;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+.learn-body h4 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #03466E;
+  margin: 0 0 10px 0;
+  line-height: 1.35;
+  transition: color 0.2s ease;
+}
+
+.learn-card:hover .learn-body h4 {
+  color: #FF2828;
+}
+
+.learn-body p {
+  font-size: 14px;
+  line-height: 1.55;
+  color: #475569;
+  margin: 0;
+}
+
+/* ===== Shared Accent Arrow ===== */
+.accent-circle-arrow {
+  width: 24px;
+  height: 24px;
+  background-color: #FF2828;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 1200px) {
+  .related-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .ethics-hero-header,
+  .code-grid,
+  .values-inner,
+  .action-header-flex,
+  .report-inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .values-right-grid,
+  .action-grid-3,
+  .learn-grid-3 {
+    grid-template-columns: 1fr;
+  }
+}

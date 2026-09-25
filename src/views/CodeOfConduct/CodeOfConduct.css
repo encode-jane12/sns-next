@@ -1,0 +1,74 @@
+.code-of-conduct-page {
+  background-color: var(--white, #ffffff);
+  width: 100%;
+}
+
+.coc-image-section {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px 40px 20px;
+}
+
+.coc-image-wrapper {
+  width: 100%;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.coc-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.coc-content-section {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px 80px 20px;
+}
+
+.coc-content-inner {
+  max-width: 800px;
+  margin: 0;
+}
+
+.coc-text-block {
+  margin-bottom: 48px;
+}
+
+.coc-text-block h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-bottom: 24px;
+  color: var(--black, #000000);
+}
+
+.coc-text-block p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--gray-800, #333333);
+  margin-bottom: 24px;
+}
+
+.coc-link {
+  color: var(--blue-dark, #03466E);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.coc-link:hover {
+  color: var(--blue, #03466E);
+}
+
+@media (min-width: 768px) {
+  .coc-image-section {
+    padding: 0 40px 60px 40px;
+  }
+  
+  .coc-content-section {
+    padding: 60px 40px 120px 40px;
+  }
+}

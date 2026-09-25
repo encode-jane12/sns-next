@@ -1,0 +1,125 @@
+.com-dev-teasers {
+  padding: 100px var(--section-padding-inline);
+  background-color: #ffffff;
+}
+
+.com-dev-teasers__container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.com-dev-teasers__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 64px;
+  gap: 40px;
+}
+
+.com-dev-teasers__heading {
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin: 0;
+  flex: 1;
+  letter-spacing: -0.02em;
+}
+
+.com-dev-teasers__intro {
+  font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+  color: #111;
+  margin: 0;
+  flex: 1;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 500px;
+}
+
+.com-dev-teasers__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.com-dev-teasers__card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  text-decoration: none;
+  height: 100%;
+  color: inherit;
+  overflow: hidden;
+}
+
+.com-dev-teasers__image-wrapper {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.com-dev-teasers__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.com-dev-teasers__card:hover .com-dev-teasers__image {
+  transform: scale(1.05);
+}
+
+.com-dev-teasers__text-wrapper {
+  padding: 24px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.com-dev-teasers__card-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.com-dev-teasers__card-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-primary);
+  margin: 0;
+}
+
+.com-dev-teasers__card-icon svg circle {
+  fill: #FF2828; /* SNS Construction Green by default */
+  transition: fill 0.2s ease;
+}
+
+.com-dev-teasers__card:hover .com-dev-teasers__card-icon svg circle {
+  fill: var(--color-primary); /* SNS Construction Blue on hover */
+}
+
+.com-dev-teasers__card-icon svg path {
+  transition: transform 0.3s ease;
+}
+
+.com-dev-teasers__card:hover .com-dev-teasers__card-icon svg path {
+  transform: translateX(2px);
+}
+
+.com-dev-teasers__card-intro {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #111;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .com-dev-teasers__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .com-dev-teasers__grid {
+    grid-template-columns: 1fr;
+  }
+}

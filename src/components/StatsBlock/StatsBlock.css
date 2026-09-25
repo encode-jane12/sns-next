@@ -1,0 +1,77 @@
+.stats-block {
+  padding: 0 1rem;
+  margin: 6rem 0; /* Adding the requested margin on top and bottom */
+  background-color: transparent;
+}
+
+.stats-block__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  border-top: 1px solid var(--gray-300, #d9d9d9);
+  border-bottom: 1px solid var(--gray-300, #d9d9d9);
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .stats-block__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 6rem 0;
+  }
+}
+
+.stats-block__heading-wrapper {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .stats-block__heading-wrapper {
+    grid-column: 1 / 2;
+  }
+}
+
+.stats-block__heading {
+  font-family: 'ShapeSans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--blue-900, #03466E);
+}
+
+.stats-block__items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .stats-block__items-container {
+    grid-column: 3 / 4;
+  }
+}
+
+.stats-block__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-block__item-value {
+  font-family: 'ShapeSans', sans-serif;
+  font-size: 4.5rem; /* Larger font size based on the image */
+  font-weight: 400;
+  color: #002d6b; /* Vivid dark blue based on the image */
+  margin-bottom: 0.25rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.stats-block__item-label {
+  font-family: 'ShapeSans', sans-serif;
+  font-size: 1rem;
+  color: var(--black, #000000); /* Darker text for the label */
+  line-height: 1.5;
+  font-weight: 400;
+}

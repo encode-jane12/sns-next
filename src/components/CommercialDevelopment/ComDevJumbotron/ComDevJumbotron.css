@@ -1,0 +1,90 @@
+.com-dev-jumbotron {
+  padding: 100px var(--section-padding-inline);
+  background-color: #ffffff;
+}
+
+.com-dev-jumbotron__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+  align-items: flex-start;
+}
+
+.com-dev-jumbotron__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.com-dev-jumbotron__heading {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 400;
+  color: var(--color-primary);
+  line-height: 1.1;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.02em;
+}
+
+.com-dev-jumbotron__intro {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: #111;
+  font-weight: 400;
+  margin: 0 0 32px 0;
+}
+
+.com-dev-jumbotron__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #111;
+  transition: opacity 0.3s ease;
+}
+
+.com-dev-jumbotron__link:hover {
+  opacity: 0.8;
+}
+
+.com-dev-jumbotron__link-icon svg circle {
+  transition: fill 0.2s ease;
+}
+
+.com-dev-jumbotron__link:hover .com-dev-jumbotron__link-icon svg circle {
+  fill: var(--color-primary);
+}
+
+.com-dev-jumbotron__link-icon svg path {
+  transition: transform 0.3s ease;
+}
+
+.com-dev-jumbotron__link:hover .com-dev-jumbotron__link-icon svg path {
+  transform: translateX(2px);
+}
+
+.com-dev-jumbotron__image-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.com-dev-jumbotron__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .com-dev-jumbotron__container {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  
+  .com-dev-jumbotron__image-wrapper {
+    aspect-ratio: 16 / 9;
+  }
+}

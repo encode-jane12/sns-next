@@ -1,0 +1,227 @@
+.com-dev-working {
+  padding: 100px var(--section-padding-inline);
+  background-color: #172d54; /* Dark blue background from image */
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.com-dev-working__container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.com-dev-working__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 64px;
+  gap: 40px;
+}
+
+.com-dev-working__title {
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  font-weight: 500;
+  margin: 0;
+  flex: 1;
+  letter-spacing: -0.02em;
+}
+
+.com-dev-working__header-right {
+  flex: 0 0 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.com-dev-working__intro {
+  font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+  line-height: 1.4;
+  margin: 0;
+  font-weight: 400;
+}
+
+.com-dev-working__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.com-dev-working__link:hover {
+  opacity: 0.8;
+}
+
+/* Carousel */
+.com-dev-working__carousel-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.com-dev-working__track {
+  display: flex;
+  gap: 32px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  padding-bottom: 24px;
+}
+
+.com-dev-working__track::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.com-dev-working__card {
+  flex: 0 0 calc(33.333% - 21.33px);
+  min-width: 320px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+.com-dev-working__card-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.com-dev-working__status-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #FF7A7A; /* Light green */
+  border-radius: 50%;
+}
+
+.com-dev-working__card-image-wrapper {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.com-dev-working__card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.com-dev-working__card:hover .com-dev-working__card-image {
+  transform: scale(1.05);
+}
+
+.com-dev-working__card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.com-dev-working__card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  min-height: 56px;
+}
+
+.com-dev-working__card-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding-right: 16px;
+  line-height: 1.2;
+}
+
+.com-dev-working__card-icon {
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.com-dev-working__card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.com-dev-working__card-details p {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+/* Controls */
+.com-dev-working__controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 48px;
+  gap: 24px;
+}
+
+.com-dev-working__progress-bar-bg {
+  flex-grow: 1;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: relative;
+}
+
+.com-dev-working__progress-bar-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+
+.com-dev-working__nav-buttons {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.com-dev-working__nav-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.com-dev-working__nav-btn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+  .com-dev-working__card {
+    flex: 0 0 calc(50% - 16px);
+  }
+}
+
+@media (max-width: 768px) {
+  .com-dev-working__header {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .com-dev-working__header-right {
+    flex: auto;
+  }
+  .com-dev-working__card {
+    flex: 0 0 calc(85%); /* Show peek of next card */
+  }
+}

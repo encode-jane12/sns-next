@@ -1,0 +1,132 @@
+.contact-section {
+  padding: 4rem 1rem;
+  background-color: var(--white, #ffffff);
+}
+
+.contact-section__container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .contact-section__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+.contact-section__header-col {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .contact-section__header-col {
+    grid-column: 1 / 2;
+    margin-bottom: 0;
+  }
+}
+
+.contact-section__heading {
+  font-family: 'ShapeSans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--blue-900, #03466E);
+}
+
+.contact-section__cards-col {
+  /* This wraps the grid of cards */
+}
+
+@media (min-width: 768px) {
+  .contact-section__cards-col {
+    grid-column: 2 / 4;
+  }
+}
+
+.contact-section__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .contact-section__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contact-card__image-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.contact-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.contact-card__info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-card__department {
+  font-family: 'ShapeSans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--black, #000000);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contact-card__details {
+  margin-bottom: 1.5rem;
+}
+
+.contact-card__name {
+  font-family: 'ShapeSans', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--blue-600, #0056b3);
+  margin-bottom: 0.25rem;
+}
+
+.contact-card__role {
+  font-family: 'ShapeSans', sans-serif;
+  font-size: 0.95rem;
+  color: var(--black, #000000);
+  line-height: 1.4;
+}
+
+.contact-card__btn {
+  padding: 0.5rem 1.25rem;
+  background-color: #FF2828; /* The bright green from the design */
+  color: var(--black, #000000);
+  border: none;
+  font-family: 'ShapeSans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 9999px;
+  margin-top: auto; /* push to bottom if cards vary in height */
+}
+
+.contact-card__btn:hover {
+  background-color: #CC2020;
+}

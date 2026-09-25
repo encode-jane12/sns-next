@@ -1,0 +1,146 @@
+.core-offerings {
+  padding: 100px 120px;
+}
+
+.core-offerings__heading {
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  font-weight: 700;
+  color: #03466E;
+  margin: 0 0 60px 0;
+  line-height: 1.15;
+}
+
+/* ─── Card Grid ─── */
+.core-offerings__cards {
+  display: flex;
+  gap: 8px;
+  min-height: 500px;
+}
+
+/* ─── Individual Card ─── */
+.core-offerings__card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+  flex: 1;
+  transition: flex 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.core-offerings__card--active {
+  flex: 2.5;
+}
+
+/* Background image */
+.core-offerings__card-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.core-offerings__card:hover .core-offerings__card-image {
+  transform: scale(1.05);
+}
+
+/* Dark gradient overlay */
+.core-offerings__card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 60%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Bottom content area */
+.core-offerings__card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 32px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.core-offerings__card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.core-offerings__card--active .core-offerings__card-title {
+  white-space: normal;
+}
+
+/* ─── Arrow Icon ─── */
+.core-offerings__arrow {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.8);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.35s ease, border-color 0.35s ease;
+}
+
+.core-offerings__arrow svg {
+  width: 16px;
+  height: 16px;
+  transition: color 0.35s ease;
+  color: #ffffff;
+}
+
+/* Active card arrow fills white */
+.core-offerings__card--active .core-offerings__arrow {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+
+.core-offerings__card--active .core-offerings__arrow svg {
+  color: #03466E;
+}
+
+/* ─── Responsive: ≤ 810px ─── */
+@media (max-width: 810px) {
+  .core-offerings {
+    padding: 60px 24px;
+  }
+
+  .core-offerings__heading {
+    margin-bottom: 36px;
+  }
+
+  .core-offerings__cards {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .core-offerings__card {
+    flex: none !important;
+    height: 200px;
+    transition: height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .core-offerings__card--active {
+    height: 350px;
+  }
+
+  .core-offerings__card-title {
+    white-space: normal;
+  }
+}

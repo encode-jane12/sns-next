@@ -1,0 +1,122 @@
+.careers-life-at {
+  padding: 100px var(--section-padding-inline) 0;
+  background-color: #ffffff;
+}
+
+.careers-life-at__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.careers-life-at__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  margin-bottom: 80px;
+}
+
+.careers-life-at__heading {
+  font-size: clamp(2rem, 3.5vw, 2.5rem);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.careers-life-at__intro {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: #111;
+  margin: 0;
+  font-weight: 400;
+  max-width: 500px;
+}
+
+.careers-life-at__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.careers-life-at__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 32px;
+  text-decoration: none;
+  aspect-ratio: 4 / 5;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.careers-life-at__card:hover {
+  transform: translateY(-8px);
+  background-color: #00457a; /* Darker SNS Construction Blue on hover */
+}
+
+.careers-life-at__card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+}
+
+.careers-life-at__card-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.careers-life-at__card-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.careers-life-at__card-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.careers-life-at__card:hover .careers-life-at__card-arrow {
+  transform: translateX(4px);
+}
+
+@media (max-width: 1200px) {
+  .careers-life-at__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  
+  .careers-life-at__card {
+    aspect-ratio: auto;
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 900px) {
+  .careers-life-at__header {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .careers-life-at__grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,74 @@
+.careers-testimonials {
+  padding: 0 var(--section-padding-inline) 100px;
+  background-color: #ffffff;
+}
+
+.careers-testimonials__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 60px 0 0 0;
+  border-top: 1px solid #d4d4d4;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.careers-testimonials__left {
+  position: relative;
+}
+
+.careers-testimonials__heading {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--color-primary);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.careers-testimonials__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.careers-testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 40px;
+}
+
+.careers-testimonials__stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.careers-testimonials__percentage {
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  font-weight: 400;
+  color: var(--color-primary);
+  margin: 0 0 16px 0;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.careers-testimonials__text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #111;
+  margin: 0;
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+  .careers-testimonials__container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .careers-testimonials__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

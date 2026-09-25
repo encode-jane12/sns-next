@@ -1,0 +1,64 @@
+.com-dev-intro {
+  padding: 60px var(--section-padding-inline) 0;
+  background-color: #ffffff;
+}
+
+.com-dev-intro__breadcrumbs {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  font-weight: 400;
+  max-width: 1400px;
+  margin: 0 auto 80px auto;
+  color: #111118;
+}
+
+.com-dev-intro__breadcrumbs a {
+  color: #03466E;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.com-dev-intro__breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.com-dev-intro__breadcrumb-separator {
+  margin: 0 12px;
+  display: flex;
+  align-items: center;
+  color: #444;
+}
+
+.com-dev-intro__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #d4d4d4;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.com-dev-intro__heading {
+  font-size: clamp(2rem, 3.5vw, 2.5rem);
+  font-weight: 500;
+  color: var(--color-primary); /* SNS Construction Blue */
+  line-height: 1.2;
+  margin: 0;
+}
+
+.com-dev-intro__text {
+  font-size: clamp(1.2rem, 2vw, 2rem);
+  line-height: 1.4;
+  font-weight: 300;
+  color: #111;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .com-dev-intro__container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

@@ -1,0 +1,143 @@
+.leadership-page {
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  color: #03466E;
+  background-color: #f8f9fa;
+  padding-bottom: 80px;
+}
+
+.leadership-team-section {
+  padding-top: 40px;
+}
+
+.leadership-container {
+  width: 92%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.leadership-section-group {
+  margin-bottom: 80px;
+}
+
+.leadership-section-title {
+  font-size: 32px;
+  font-weight: 400;
+  color: #03466E;
+  margin: 0 0 40px 0;
+  border-bottom: 2px solid #e5e5e5;
+  padding-bottom: 16px;
+}
+
+.leadership-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 32px;
+  row-gap: 48px;
+}
+
+.leadership-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.leadership-card:hover {
+  transform: translateY(-5px);
+}
+
+.leadership-avatar {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.leadership-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #f0f0f0;
+}
+
+.leadership-image-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #e0e6ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid #f0f0f0;
+}
+
+.leadership-image-placeholder .initials {
+  font-size: 36px;
+  color: #64748b;
+  font-weight: 400;
+}
+
+.leadership-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.leadership-info h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0f172a;
+  margin: 0 0 6px 0;
+}
+
+.leadership-title {
+  font-size: 14px;
+  color: #334155;
+  margin: 0 0 8px 0;
+  font-weight: 500;
+}
+
+.leadership-location {
+  font-size: 13px;
+  color: #64748b;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.leadership-location::before {
+  content: '📍';
+  margin-right: 6px;
+  font-size: 12px;
+}
+
+.leadership-about {
+  font-size: 14px;
+  color: #475569;
+  margin: 16px 0 0 0;
+  line-height: 1.6;
+  border-top: 1px solid #f1f5f9;
+  padding-top: 16px;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .leadership-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .leadership-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .leadership-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -3,6 +3,9 @@ import OurOrganization from '@/src/views/OurOrganization/OurOrganization';
 export const metadata = {
   title: 'Our Organization | SNS Construction',
   description: 'Learn more about Our Organization at SNS Construction.',
+  alternates: {
+    canonical: '/about-us/sns-construction/our-organization',
+  },
 };
 
 export default function Page() {

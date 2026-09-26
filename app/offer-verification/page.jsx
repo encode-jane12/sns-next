@@ -4,6 +4,9 @@ import OfferVerification from '@/src/views/OfferVerification/OfferVerification';
 export const metadata = {
   title: 'Offer Verification | SNS Construction',
   description: 'Learn more about Offer Verification at SNS Construction.',
+  alternates: {
+    canonical: '/offer-verification',
+  },
 };
 
 export default function Page() {

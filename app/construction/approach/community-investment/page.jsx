@@ -3,6 +3,9 @@ import CommunityInvestment from '@/src/views/CommunityInvestment/CommunityInvest
 export const metadata = {
   title: 'Community Investment | SNS Construction',
   description: 'Learn more about Community Investment at SNS Construction.',
+  alternates: {
+    canonical: '/construction/approach/community-investment',
+  },
 };
 
 export default function Page() {

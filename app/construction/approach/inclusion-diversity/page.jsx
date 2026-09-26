@@ -3,6 +3,9 @@ import InclusionDiversity from '@/src/views/InclusionDiversity/InclusionDiversit
 export const metadata = {
   title: 'Inclusion Diversity | SNS Construction',
   description: 'Learn more about Inclusion Diversity at SNS Construction.',
+  alternates: {
+    canonical: '/construction/approach/inclusion-diversity',
+  },
 };
 
 export default function Page() {

@@ -3,6 +3,9 @@ import GlobalLeadershipTeam from '@/src/views/GlobalLeadershipTeam/GlobalLeaders
 export const metadata = {
   title: 'Global Leadership Team | SNS Construction',
   description: 'Learn more about Global Leadership Team at SNS Construction.',
+  alternates: {
+    canonical: '/about-us/sns-construction/usa-leadership-team',
+  },
 };
 
 export default function Page() {

@@ -3,6 +3,9 @@ import LocationDetail from '@/src/views/LocationDetail/LocationDetail';
 export const metadata = {
   title: 'Location Detail | SNS Construction',
   description: 'Learn more about Location Detail at SNS Construction.',
+  alternates: {
+    canonical: '/where-we-work',
+  },
 };
 
 export default function Page() {

@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://snsconstructioninc.com';
+  const baseUrl = 'https://www.snsconstructioninc.com';
   
   // Cleaned routes array without the "app/" prefix and without backslashes
   const routes = [

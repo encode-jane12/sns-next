@@ -5,6 +5,6 @@ export default function robots() {
       allow: '/',
       disallow: ['/private/'],
     },
-    sitemap: 'https://snsconstruction.com/sitemap.xml',
+    sitemap: 'https://www.snsconstructioninc.com/sitemap.xml',
   }
 }

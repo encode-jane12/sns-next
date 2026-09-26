@@ -4,6 +4,7 @@ import '../src/index.css'; // Global reset and CSS variables
 import '../src/App.css'; // Global styles
 
 export const metadata = {
+  metadataBase: new URL('https://snsconstructioninc.com'),
   title: 'SNS Construction',
   description: 'SNS Construction Official Website',
 };

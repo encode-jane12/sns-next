@@ -137,3 +137,11 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-gray-500);
 }
+
+html, body {
+  overflow-x: hidden;
+}
+.app {
+  overflow-x: hidden;
+}
+

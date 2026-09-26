@@ -858,7 +858,7 @@ export const offerVerificationData = [
     doj: '16 November 2026',
     location: 'Lucknow',
     project: 'Lucknow Metro Phase 2',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908613',
@@ -1038,7 +1038,7 @@ export const offerVerificationData = [
     doj: '26 October 2026',
     location: 'Delhi',
     project: 'Delhi Metro Phase 4 (Golden Line Extension)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908633',
@@ -1058,6 +1058,78 @@ export const offerVerificationData = [
     project: 'Mumbai Metro Line 12 (Kalyan–Taloja South Link)',
     status: 'Documents Pending'
   },
+  {
+    olNo: 'SNSOL0908635',
+    name: 'Muthu Kumarasamy',
+    title: 'Senior Manager (QA/QC)',
+    doj: '16 November 2026',
+    location: 'Chennai',
+    project: 'Chennai Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908636',
+    name: 'Manish Goel',
+    title: 'Senior Construction Manager - Civil',
+    doj: '9 November 2026',
+    location: 'Chandigarh',
+    project: 'Chandigarh-Bathinda Expressway',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908637',
+    name: 'Nur Islam',
+    title: 'Senior Manager Quality',
+    doj: '14 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908638',
+    name: 'Antosh Kumar',
+    title: 'Civil Site In-charge',
+    doj: '2 November 2026',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908639',
+    name: 'Sachin Bhardwaj',
+    title: 'Assistant General Manager (Procurement)',
+    doj: '16 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908640',
+    name: 'Girdhari Singh',
+    title: 'Construction Manager',
+    doj: '14 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908641',
+    name: 'Ranjan Singh',
+    title: 'Operations Manager',
+    doj: '9 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908642',
+    name: 'Indrajit Singh',
+    title: 'Store Manager',
+    doj: '21 December 2026',
+    location: 'Ahmedabad',
+    project: 'Sabarmati Riverfront Phase 3 (Indira Bridge to GIFT City)',
+    status: 'Documents Pending'
+  }
 ];
 
 const OfferVerification = () => {

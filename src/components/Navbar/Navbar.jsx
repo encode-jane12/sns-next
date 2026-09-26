@@ -221,7 +221,7 @@ function Navbar() {
         <div className="navbar__inner">
           {/* Logo */}
           <Link href="/" className="navbar__logo" aria-label="SNS Construction Home">
-            <img src={(logoImg)?.src || (logoImg)} alt="SNS Construction Logo" className="navbar__logo-img" style={{ height: '100px' }} />
+            <img src={(logoImg)?.src || (logoImg)} alt="SNS Construction Logo" className="navbar__logo-img" />
           </Link>
 
           {/* Desktop Nav Links */}

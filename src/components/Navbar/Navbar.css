@@ -35,6 +35,13 @@
   flex-shrink: 0;
 }
 
+.navbar__logo-img {
+  height: 90px;
+  width: auto;
+  transition: height 0.3s ease;
+  object-fit: contain;
+}
+
 .navbar__logo svg {
   height: 24px;
   width: auto;
@@ -483,6 +490,10 @@
   .navbar__inner {
     height: 64px;
     padding-inline: 20px;
+  }
+
+  .navbar__logo-img {
+    height: 52px;
   }
 
   .navbar__links {

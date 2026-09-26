@@ -67,7 +67,7 @@ function Slide({ slide, index, scrollYProgress }) {
    * Slide 2 slides up from 100% to 0% after Slide 1 is done.
    */
   const yRanges = [
-    [0, 0],
+    [0, 1],
     [0.2, 0.45],
     [0.55, 0.8],
   ];

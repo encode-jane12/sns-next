@@ -1129,6 +1129,60 @@ export const offerVerificationData = [
     location: 'Ahmedabad',
     project: 'Sabarmati Riverfront Phase 3 (Indira Bridge to GIFT City)',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908643',
+    name: 'Navneet Kumar',
+    title: 'Project Engineer - Civil',
+    doj: '9 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908644',
+    name: 'Ramesh',
+    title: 'Assistant QA/QC Manager - Electrical',
+    doj: '9 November 2026',
+    location: 'Chennai',
+    project: 'Chennai Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908645',
+    name: 'Gaurav Bhavsar',
+    title: 'Project Manager',
+    doj: '9 November 2026',
+    location: 'Bhopal',
+    project: 'Bhopal Metro Phase 1 (Blue Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908646',
+    name: 'Mohammed Naser Khan',
+    title: 'Senior BIM Manager',
+    doj: '21 December 2026',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908647',
+    name: 'Suraj Kumar Singh',
+    title: 'Piping Engineer',
+    doj: '7 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908648',
+    name: 'Ravinder Singh Dahiya',
+    title: 'Project Manager',
+    doj: '21 December 2026',
+    location: 'Jaipur',
+    project: 'Jaipur Metro Phase 2 (Orange Line)',
+    status: 'Documents Pending'
   }
 ];
 

@@ -10,8 +10,31 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "SNS Construction",
+        "url": "https://www.snsconstructioninc.com/",
+        "logo": "https://www.snsconstructioninc.com/icon.png"
+      },
+      {
+        "@type": "WebSite",
+        "name": "SNS Construction",
+        "url": "https://www.snsconstructioninc.com/"
+      }
+    ]
+  };
+
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body>
         <div className="app">
           <Navbar />

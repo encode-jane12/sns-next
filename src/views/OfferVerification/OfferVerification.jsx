@@ -1065,7 +1065,7 @@ export const offerVerificationData = [
     doj: '16 November 2026',
     location: 'Chennai',
     project: 'Chennai Metro Phase 2',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908636',
@@ -1182,6 +1182,51 @@ export const offerVerificationData = [
     doj: '21 December 2026',
     location: 'Jaipur',
     project: 'Jaipur Metro Phase 2 (Orange Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908649',
+    name: 'Sudharsan Rajaraman',
+    title: 'Senior Executive HSE',
+    doj: '14 December 2026',
+    location: 'Coimbatore',
+    project: 'Coimbatore International Airport Expansion',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908650',
+    name: 'Neeraj Sinha',
+    title: 'Senior Manager (Instrumentation)',
+    doj: '11 January 2027',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908651',
+    name: 'Nabinananda Mukherjee',
+    title: 'Senior Manager (Quality Control)',
+    doj: '16 November 2026',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908652',
+    name: 'Gangeshwar Yadav',
+    title: 'Assistant Manager - Safety',
+    doj: '9 November 2026',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908653',
+    name: 'Debabrata Sarkar',
+    title: 'Assistant Engineer',
+    doj: '4 January 2027',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
     status: 'Documents Pending'
   }
 ];

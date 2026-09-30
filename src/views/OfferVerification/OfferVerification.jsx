@@ -1020,7 +1020,7 @@ export const offerVerificationData = [
     doj: '28 December 2026',
     location: 'Hyderabad',
     project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908631',
@@ -1227,6 +1227,78 @@ export const offerVerificationData = [
     doj: '4 January 2027',
     location: 'Kolkata',
     project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908654',
+    name: 'Novel Babu',
+    title: 'Project Manager',
+    doj: '30 October 2026',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908655',
+    name: 'Rajendra Valake',
+    title: 'Assistant Project Manager',
+    doj: '9 November 2026',
+    location: 'Mumbai',
+    project: 'Mumbai Metro Line 12 (Kalyan–Taloja South Link)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908656',
+    name: 'Shahbaz Shameem',
+    title: 'Senior Project Engineer',
+    doj: '16 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908657',
+    name: 'Mohammad Wasif Jan',
+    title: 'Civil Engineer',
+    doj: '2 November 2026',
+    location: 'Bangalore',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908658',
+    name: 'Kartik Maity',
+    title: 'Assistant Construction Manager',
+    doj: '18 January 2027',
+    location: 'Raipur',
+    project: 'Raipur-Dhanbad Economic Corridor (NH-43)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908659',
+    name: 'Shubham Kumar Yadav',
+    title: 'Deputy Project Manager',
+    doj: '9 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908660',
+    name: 'Vivek Kumar Singh',
+    title: 'Assistant Project Manager',
+    doj: '16 November 2026',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908661',
+    name: 'Vikash Kumar',
+    title: 'Deputy Project Manager',
+    doj: '16 November 2026',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
     status: 'Documents Pending'
   }
 ];

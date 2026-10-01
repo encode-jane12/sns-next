@@ -1300,6 +1300,114 @@ export const offerVerificationData = [
     location: 'Pune',
     project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908662',
+    name: 'Vivek Kumar Mishra',
+    title: 'Deputy Mechanical Manager',
+    doj: '18 January 2027',
+    location: 'Jaipur',
+    project: 'Jaipur Metro Phase 2 (Orange Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908663',
+    name: 'Jagveer Singh',
+    title: 'Senior Project Engineer',
+    doj: '4 January 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908664',
+    name: 'Shreyansh Holkar',
+    title: 'Senior Civil Engineer',
+    doj: '9 November 2026',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908665',
+    name: 'Rahul Rajan Sinha',
+    title: 'Deputy Construction Manager',
+    doj: '18 January 2027',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908666',
+    name: 'Dhruv Puri',
+    title: 'Project Manager',
+    doj: '23 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908667',
+    name: 'Shivendra Bahadur Singh',
+    title: 'Senior Project Manager (Electrical)',
+    doj: '18 January 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908668',
+    name: 'Md Farhan',
+    title: 'Project Manager',
+    doj: '9 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908669',
+    name: 'Rajesh Kumar Sarkar',
+    title: 'Project Manager Survey',
+    doj: '16 November 2026',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908670',
+    name: 'Afsar Malik',
+    title: 'Senior Civil Engineer',
+    doj: '9 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908671',
+    name: 'Mansukh Bariya',
+    title: 'Senior Maintenance Engineer',
+    doj: '14 December 2026',
+    location: 'Mumbai',
+    project: 'Mumbai Metro Line 12 (Kalyan–Taloja South Link)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908672',
+    name: 'Kunj Gocher',
+    title: 'Manager - Power Supply Traction',
+    doj: '18 January 2027',
+    location: 'Mumbai',
+    project: 'Mumbai–Ahmedabad High-Speed Rail (Bullet Train)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908673',
+    name: 'Salman Khan',
+    title: 'Senior Executive Engineer',
+    doj: '18 January 2027',
+    location: 'Varanasi',
+    project: 'The Ganga River Elevated Corridor',
+    status: 'Documents Pending'
   }
 ];
 

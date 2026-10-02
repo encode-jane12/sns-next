@@ -1408,6 +1408,69 @@ export const offerVerificationData = [
     location: 'Varanasi',
     project: 'The Ganga River Elevated Corridor',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908674',
+    name: 'Dhinakar',
+    title: 'Project Manager',
+    doj: '7 December 2026',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908675',
+    name: 'Raj Kumar',
+    title: 'Deputy Project Manager',
+    doj: '7 December 2026',
+    location: 'Jaipur',
+    project: 'Jaipur Metro Phase 2 (Orange Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908676',
+    name: 'Anant Kumar Sharma S',
+    title: 'Project Manager',
+    doj: '16 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908677',
+    name: 'Vighnesh Jamsutkar',
+    title: 'Deputy HSE Manager',
+    doj: '21 December 2026',
+    location: 'Mumbai',
+    project: 'Mumbai Metro Line 12 (Kalyan–Taloja South Link)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908678',
+    name: 'Sandeep Futane',
+    title: 'Senior Project Manager',
+    doj: '21 December 2026',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908679',
+    name: 'Surisetty Satish',
+    title: 'Senior Manager - Piping',
+    doj: '16 November 2026',
+    location: 'Vijaywada',
+    project: 'Nagpur-Vijayawada Expressway',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908680',
+    name: 'Ankit Kumar',
+    title: 'Senior Project Engineer',
+    doj: '18 January 2027',
+    location: 'Patna',
+    project: 'Patna Metro Phase 1 (Underground Network: Line 1 & Line 2)',
+    status: 'Documents Pending'
   }
 ];
 

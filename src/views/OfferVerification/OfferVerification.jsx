@@ -1371,7 +1371,7 @@ export const offerVerificationData = [
     doj: '16 November 2026',
     location: 'Hyderabad',
     project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908670',
@@ -1470,6 +1470,42 @@ export const offerVerificationData = [
     doj: '18 January 2027',
     location: 'Patna',
     project: 'Patna Metro Phase 1 (Underground Network: Line 1 & Line 2)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908681',
+    name: 'Sayyed Afzal',
+    title: 'Senior Site Engineer Civil',
+    doj: '14 December 2026',
+    location: 'Mumbai',
+    project: 'Mumbai Metro Line 12 (Kalyan–Taloja South Link)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908682',
+    name: 'Sundar Rajasekar',
+    title: 'Project Manager',
+    doj: '21 December 2026',
+    location: 'Coimbatore',
+    project: 'Coimbatore International Airport Expansion',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908683',
+    name: 'Gorav Gupta',
+    title: 'Assistant Manager Planning',
+    doj: '16 November 2026',
+    location: 'Chandigarh',
+    project: 'Chandigarh-Bathinda Expressway',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908684',
+    name: 'Akash Varma',
+    title: 'Assistant Manager (Quality & Billing)',
+    doj: '23 November 2026',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
     status: 'Documents Pending'
   }
 ];

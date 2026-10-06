@@ -1398,7 +1398,7 @@ export const offerVerificationData = [
     doj: '18 January 2027',
     location: 'Mumbai',
     project: 'Mumbai–Ahmedabad High-Speed Rail (Bullet Train)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908673',
@@ -1506,6 +1506,78 @@ export const offerVerificationData = [
     doj: '23 November 2026',
     location: 'Lucknow',
     project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908685',
+    name: 'Balaji Shanmugam',
+    title: 'Assistant Manager (Quality)',
+    doj: '23 November 2026',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908686',
+    name: 'Brajendra Singh',
+    title: 'Senior Site Engineer',
+    doj: '16 November 2026',
+    location: 'Bhopal',
+    project: 'Bhopal Metro Phase 1 (Blue Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908687',
+    name: 'Yogendar Singh',
+    title: 'Deputy Project Manager',
+    doj: '23 November 2026',
+    location: 'Bhopal',
+    project: 'Bhopal Metro Phase 1 (Blue Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908688',
+    name: 'Rakesh Bhargava',
+    title: 'Senior Project Manager (Civil)',
+    doj: '7 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908689',
+    name: 'Prosenjit Mistry',
+    title: 'Civil Site Engineer',
+    doj: '9 November 2026',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908690',
+    name: 'Maha Prabhu',
+    title: 'Senior Project Manager',
+    doj: '21 December 2026',
+    location: 'Chennai',
+    project: 'Chennai Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908691',
+    name: 'Merwin Sequeira',
+    title: 'Project Manager',
+    doj: '12 December 2026',
+    location: 'Mumbai',
+    project: 'Mumbai Metro Line 12 (Kalyan–Taloja South Link)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908692',
+    name: 'Ashiq Hussain Dar',
+    title: 'Assistant Planning Manager',
+    doj: '23 November 2026',
+    location: 'Srinagar',
+    project: 'Srinagar International Airport (Sheikh ul-Alam) Master Expansion',
     status: 'Documents Pending'
   }
 ];

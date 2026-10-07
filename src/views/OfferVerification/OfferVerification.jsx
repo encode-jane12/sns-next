@@ -1164,7 +1164,7 @@ export const offerVerificationData = [
     doj: '21 December 2026',
     location: 'Hyderabad',
     project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908647',
@@ -1578,6 +1578,87 @@ export const offerVerificationData = [
     doj: '23 November 2026',
     location: 'Srinagar',
     project: 'Srinagar International Airport (Sheikh ul-Alam) Master Expansion',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908693',
+    name: 'Sahil Patel',
+    title: 'Project Engineer',
+    doj: '21 December 2026',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908694',
+    name: 'Sonu Kumar Bhagat',
+    title: 'Senior Project Engineer',
+    doj: '18 January 2027',
+    location: 'Gangtok',
+    project: 'Rangpo–Gangtok Rail Extension (Phase 2)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908695',
+    name: 'Mitul Prajapati',
+    title: 'Deputy Manager - Planning & Billing',
+    doj: '1 December 2026',
+    location: 'Ahmedabad',
+    project: 'Sabarmati Riverfront Phase 3 (Indira Bridge to GIFT City)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908696',
+    name: 'Darshan Patel',
+    title: 'Senior Site Engineer (Civil)',
+    doj: '9 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908697',
+    name: 'Pankaj Kumar',
+    title: 'Deputy Project Manager',
+    doj: '1 December 2026',
+    location: 'Bhopal',
+    project: 'Bhopal Metro Phase 1 (Blue Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908698',
+    name: 'Ramandeep Singh',
+    title: 'Project Manager',
+    doj: '16 November 2026',
+    location: 'Udaipur',
+    project: 'NH-48 Kherwara Elevated Corridor',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908699',
+    name: 'Mohd Abid Jatu',
+    title: 'Assistant Project Manager',
+    doj: '23 November 2026',
+    location: 'Jaipur',
+    project: 'Jaipur Metro Phase 2 (Orange Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908700',
+    name: 'Sathish Mani',
+    title: 'Project Manager (Electrical)',
+    doj: '21 December 2026',
+    location: 'Bangalore',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908701',
+    name: 'Akhilesh Pareek',
+    title: 'Senior Maintenance Engineer',
+    doj: '16 November 2026',
+    location: 'Jaipur',
+    project: 'Jaipur Metro Phase 2 (Orange Line)',
     status: 'Documents Pending'
   }
 ];

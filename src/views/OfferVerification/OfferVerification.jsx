@@ -1660,6 +1660,69 @@ export const offerVerificationData = [
     location: 'Jaipur',
     project: 'Jaipur Metro Phase 2 (Orange Line)',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908702',
+    name: 'Murugappan A',
+    title: 'Deputy Project Manager',
+    doj: '21 December 2026',
+    location: 'Chennai',
+    project: 'Chennai Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908703',
+    name: 'Subham Sau',
+    title: 'Deputy Manager (Safety)',
+    doj: '18 January 2027',
+    location: 'Kolkata',
+    project: 'Kolkata Airport Expansion (Phase II)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908704',
+    name: 'Mukesh',
+    title: 'Senior Project Manager',
+    doj: '16 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908705',
+    name: 'Sriram Rajasekar',
+    title: 'Senior Engineer MEP',
+    doj: '25 January 2027',
+    location: 'Chennai',
+    project: 'Chennai Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908706',
+    name: 'Mohd Adil',
+    title: 'Project Manager',
+    doj: '1 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908707',
+    name: 'Mazid Raza',
+    title: 'Project Manager (Billing & Execution)',
+    doj: '16 November 2026',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908708',
+    name: 'Mintu Santra',
+    title: 'Assistant Manager (Project)',
+    doj: '1 December 2026',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
   }
 ];
 

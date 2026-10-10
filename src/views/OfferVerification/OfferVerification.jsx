@@ -1021,6 +1021,69 @@ export const offerVerificationData = [
     location: 'Pune',
     project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908717',
+    name: 'Praween Kumar Pandey',
+    title: 'Assistant Manager Project',
+    doj: '28 December 2026',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908718',
+    name: 'Nambaru Ramakrishna',
+    title: 'Assistant Project Manager (MEP)',
+    doj: '7 December 2026',
+    location: 'Visakhapatnam',
+    project: 'Visakhapatnam Metro Rail (Phase 1)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908719',
+    name: 'L Sagar Deep Goud',
+    title: 'QA/QC Manager',
+    doj: '23 November 2026',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908720',
+    name: 'Pramod Kumar',
+    title: 'Project Manager',
+    doj: '1 December 2026',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908721',
+    name: 'Nivrutti Bhayaje',
+    title: 'Assistant Project Manager',
+    doj: '23 November 2026',
+    location: 'Mumbai',
+    project: 'Mumbai Metro Line 12 (Kalyan–Taloja South Link)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908722',
+    name: 'Shahbazimam',
+    title: 'Senior Site Civil Manager',
+    doj: '23 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908723',
+    name: 'Sabari Vasan',
+    title: 'Senior Project Manager',
+    doj: '25 January 2027',
+    location: 'Coimbatore',
+    project: 'Coimbatore International Airport Master Expansion & New Terminal',
+    status: 'Documents Pending'
   }
 ];
 

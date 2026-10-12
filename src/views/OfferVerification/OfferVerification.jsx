@@ -1011,7 +1011,7 @@ export const offerVerificationData = [
     doj: '18 January 2027',
     location: 'Mumbai',
     project: 'Mumbai Metro Line 12 (Kalyan–Taloja South Link)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908716',

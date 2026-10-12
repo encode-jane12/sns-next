@@ -1084,6 +1084,78 @@ export const offerVerificationData = [
     location: 'Coimbatore',
     project: 'Coimbatore International Airport Master Expansion & New Terminal',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908724',
+    name: 'Utsav Dhanuka',
+    title: 'Civil Manager',
+    doj: '16 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908725',
+    name: 'B. T. Lingeshwaran',
+    title: 'Senior Project Manager (Water)',
+    doj: '28 December 2026',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908726',
+    name: 'Love Dixit',
+    title: 'Senior Site Incharge',
+    doj: '23 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908727',
+    name: 'Sachin Kumar',
+    title: 'Project Manager',
+    doj: '23 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908728',
+    name: 'Siva Ganesh',
+    title: 'Senior Quantity Surveyor',
+    doj: '21 December 2026',
+    location: 'Chennai',
+    project: 'Chennai Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908729',
+    name: 'Mathisekar P',
+    title: 'Deputy Manager ( Electrical )',
+    doj: '25 January 2027',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908730',
+    name: 'Vemavarapu Yuvaraja',
+    title: 'Civil Manager',
+    doj: '18 January 2027',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908731',
+    name: 'Neelesh Kumar Mishra',
+    title: 'Senior Manager (Electrical)',
+    doj: '25 January 2027',
+    location: 'Jabalpur',
+    project: 'Jabalpur Main Railway Station Mega Redevelopment',
+    status: 'Documents Pending'
   }
 ];
 

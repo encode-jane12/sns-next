@@ -804,7 +804,7 @@ export const offerVerificationData = [
     doj: '23 November 2026',
     location: 'Srinagar',
     project: 'Srinagar International Airport (Sheikh ul-Alam) Master Expansion',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908693',
@@ -1155,6 +1155,51 @@ export const offerVerificationData = [
     doj: '25 January 2027',
     location: 'Jabalpur',
     project: 'Jabalpur Main Railway Station Mega Redevelopment',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908732',
+    name: 'Gagan Kushwaha',
+    title: 'Senior Project Manager',
+    doj: '1 December 2026',
+    location: 'Mumbai',
+    project: 'Mumbai Metro Line 12 (Kalyan–Taloja South Link)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908733',
+    name: 'Vimlesh Kumar Patel',
+    title: 'Deputy Manager (Electrical)',
+    doj: '28 December 2026',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908734',
+    name: 'MD Kaish Raja',
+    title: 'Senior Planning Engineer',
+    doj: '16 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908735',
+    name: 'Krishnamohan Chaurasiya',
+    title: 'Senior Engineer (Execution)',
+    doj: '16 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908736',
+    name: 'Koushik Ghatak',
+    title: 'Senior Planning Manager',
+    doj: '16 November 2026',
+    location: 'Kolkata',
+    project: 'Kolkata Airport Expansion (Phase II)',
     status: 'Documents Pending'
   }
 ];

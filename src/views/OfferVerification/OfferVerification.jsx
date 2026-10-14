@@ -1201,6 +1201,60 @@ export const offerVerificationData = [
     location: 'Kolkata',
     project: 'Kolkata Airport Expansion (Phase II)',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908737',
+    name: 'Aravind S',
+    title: 'Senior Environmental Manager',
+    doj: '25 January 2027',
+    location: 'Chennai',
+    project: 'Chennai Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908738',
+    name: 'Prasenjit Sen',
+    title: 'Senior Project Manager',
+    doj: '25 January 2027',
+    location: 'Kolkata',
+    project: 'Kolkata Airport Expansion (Phase II)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908739',
+    name: 'Sk Md Asgar',
+    title: 'Billing Manager',
+    doj: '28 December 2026',
+    location: 'Mumbai',
+    project: 'Mumbai Metro Line 12 (Kalyan–Taloja South Link)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908740',
+    name: 'Deepak Verma',
+    title: 'Senior Manager Civil',
+    doj: '23 November 2026',
+    location: 'Ahmedabad',
+    project: 'Sabarmati Riverfront Phase 3 (Indira Bridge to GIFT City)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908741',
+    name: 'Kundesh Kumar Rajak',
+    title: 'Assistant HSE Manager',
+    doj: '25 January 2027',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908742',
+    name: 'Nishant Pandey',
+    title: 'Deputy HSE Manager',
+    doj: '7 December 2026',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
   }
 ];
 

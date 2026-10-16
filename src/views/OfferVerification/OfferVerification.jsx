@@ -1345,6 +1345,87 @@ export const offerVerificationData = [
     location: 'Mumbai',
     project: 'Mumbai Metro Line 12 (Kalyan–Taloja South Link)',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908753',
+    name: 'Saurabh Mavjekar',
+    title: 'Deputy Electrical Manager',
+    doj: '25 November 2026',
+    location: 'Mumbai',
+    project: 'Mumbai Metro Line 12 (Kalyan–Taloja South Link)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908754',
+    name: 'Abhinav M E',
+    title: 'Assistant Manager (EHS)',
+    doj: '25 January 2027',
+    location: 'Kochi',
+    project: 'Kochi Metro Phase 2 (Pink Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908755',
+    name: 'Shashank Sharma',
+    title: 'Lead Engineer Project',
+    doj: '30 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908756',
+    name: 'Shobhit Sharma',
+    title: 'Project Manager',
+    doj: '7 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908757',
+    name: 'Rakesh Kumar',
+    title: 'Project Manager',
+    doj: '7 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908758',
+    name: 'Mohammad Hidayatulla',
+    title: 'Assistant QA/QC Manager',
+    doj: '4 January 2027',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908759',
+    name: 'Ravi Kant',
+    title: 'Deputy Project Manager (Instrumentation)',
+    doj: '25 January 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908760',
+    name: 'Pratap Kumar Sahoo',
+    title: 'Lead Mechanical Engineer',
+    doj: '30 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908761',
+    name: 'Subhasis Manna',
+    title: 'Senior Construction Manager',
+    doj: '30 November 2026',
+    location: 'Kolkata',
+    project: 'Kolkata Airport Expansion (Phase II)',
+    status: 'Documents Pending'
   }
 ];
 

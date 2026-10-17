@@ -1236,7 +1236,7 @@ export const offerVerificationData = [
     doj: '23 November 2026',
     location: 'Ahmedabad',
     project: 'Sabarmati Riverfront Phase 3 (Indira Bridge to GIFT City)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908741',
@@ -1426,7 +1426,97 @@ export const offerVerificationData = [
     location: 'Kolkata',
     project: 'Kolkata Airport Expansion (Phase II)',
     status: 'Documents Pending'
-  }
+  },
+  {
+    olNo: 'SNSOL0908762',
+    name: 'Anil Kumar Bhaskar',
+    title: 'Assistant Manager Quality',
+    doj: '14 December 2026',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908763',
+    name: 'Ankit Kumar Srivastava',
+    title: 'Engineering Manager',
+    doj: '30 November 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908764',
+    name: 'Praveen Laturkar',
+    title: 'Assistant Manager (Mechanical)',
+    doj: '14 December 2026',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908765',
+    name: 'Narayana',
+    title: 'Assistant Project Manager',
+    doj: '30 November 2026',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908766',
+    name: 'Vikash Kumar',
+    title: 'Assistant Manager (Quality)',
+    doj: '14 December 2026',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908767',
+    name: 'Appala Reddy Karri',
+    title: 'Senior Manager (Electrical)',
+    doj: '14 December 2026',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908768',
+    name: 'Durgesh Kumar',
+    title: 'Deputy Manager Billing & Planning',
+    doj: '25 January 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908769',
+    name: 'Shamsuddin Mataldinni',
+    title: 'Manager - Contracts (MEP)',
+    doj: '23 November 2026',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908770',
+    name: 'Md Aslam',
+    title: 'Assistant Equipment Manager (Mechanical)',
+    doj: '14 December 2026',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908771',
+    name: 'Darshan P H',
+    title: 'Assistant Facility Manager',
+    doj: '28 December 2026',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
 ];
 
 const OfferVerification = () => {

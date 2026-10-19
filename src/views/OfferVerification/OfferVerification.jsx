@@ -1517,6 +1517,78 @@ export const offerVerificationData = [
     project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
     status: 'Documents Pending'
   },
+  {
+    olNo: 'SNSOL0908772',
+    name: 'Siba Sankar Sahu',
+    title: 'Senior Operations & Maintenance Manager',
+    doj: '4 January 2027',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908773',
+    name: 'Vidya Anand',
+    title: 'Manager - Construction',
+    doj: '30 November 2026',
+    location: 'Mumbai',
+    project: 'Thane–Borivali Twin Tunnel Project',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908774',
+    name: 'Vinayak Javalkote',
+    title: 'Assistant Manager Civil (Estimation and Execution)',
+    doj: '21 December 2026',
+    location: 'Mumbai',
+    project: 'Thane–Borivali Twin Tunnel Project',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908775',
+    name: 'Firoz Jany',
+    title: 'Assistant Manager (MEP)',
+    doj: '28 December 2026',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908776',
+    name: 'Anto Jenish',
+    title: 'Senior Facility Manager',
+    doj: '28 December 2026',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908777',
+    name: 'Raja Purkait',
+    title: 'Manager - Procurement',
+    doj: '30 November 2026',
+    location: 'Mumbai',
+    project: 'Thane–Borivali Twin Tunnel Project',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908778',
+    name: 'Shareeph Khan',
+    title: 'Operations & Maintenance Manager (Electrical)',
+    doj: '25 January 2027',
+    location: 'Jaipur',
+    project: 'Jaipur Metro Phase 2 (Orange Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908779',
+    name: 'Saurabh Kumar',
+    title: 'Senior Quantity Surveyor',
+    doj: '30 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  }
 ];
 
 const OfferVerification = () => {

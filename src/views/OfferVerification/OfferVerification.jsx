@@ -1371,7 +1371,7 @@ export const offerVerificationData = [
     doj: '30 November 2026',
     location: 'Delhi',
     project: 'Delhi Metro Phase 4 (Golden Line Extension)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908756',
@@ -1380,7 +1380,7 @@ export const offerVerificationData = [
     doj: '7 December 2026',
     location: 'Delhi',
     project: 'Delhi Metro Phase 4 (Golden Line Extension)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908757',
@@ -1443,7 +1443,7 @@ export const offerVerificationData = [
     doj: '30 November 2026',
     location: 'Delhi',
     project: 'Delhi Metro Phase 4 (Golden Line Extension)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908764',
@@ -1587,6 +1587,42 @@ export const offerVerificationData = [
     doj: '30 December 2026',
     location: 'Delhi',
     project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908780',
+    name: 'Shree Vardhan Bissa',
+    title: 'Project Manager',
+    doj: '25 November 2026',
+    location: 'Jaipur',
+    project: 'Jaipur Metro Phase 2 (Orange Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908781',
+    name: 'Sayed Fayas',
+    title: 'EHS Manager',
+    doj: '11 January 2027',
+    location: 'Coimbatore',
+    project: 'Coimbatore International Airport Master Expansion & New Terminal',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908782',
+    name: 'Sunil Kumar',
+    title: 'Deputy Manager (Project)',
+    doj: '21 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908783',
+    name: 'Ashutosh Sahu',
+    title: 'Assistant Manager - Electrical',
+    doj: '25 November 2026',
+    location: 'Bilaspur',
+    project: 'Bhanupali–Bilaspur–Beri Broad-Gauge Rail Line',
     status: 'Documents Pending'
   }
 ];

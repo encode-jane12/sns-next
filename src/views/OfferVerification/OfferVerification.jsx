@@ -1605,7 +1605,7 @@ export const offerVerificationData = [
     doj: '11 January 2027',
     location: 'Coimbatore',
     project: 'Coimbatore International Airport Master Expansion & New Terminal',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908782',
@@ -1624,7 +1624,61 @@ export const offerVerificationData = [
     location: 'Bilaspur',
     project: 'Bhanupali–Bilaspur–Beri Broad-Gauge Rail Line',
     status: 'Documents Pending'
-  }
+  },
+  {
+    olNo: 'SNSOL0908784',
+    name: 'Magesh Rajandiran',
+    title: 'Site Execution Manager (Civil)',
+    doj: '29 January 2027',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908785',
+    name: 'Abinesh Anbu Nj',
+    title: 'Deputy Manager (EHS)',
+    doj: '21 December 2026',
+    location: 'Coimbatore',
+    project: 'Coimbatore International Airport Master Expansion & New Terminal',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908786',
+    name: 'Mukul Chauhan',
+    title: 'Lead Electrical Engineer',
+    doj: '29 January 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908787',
+    name: 'Subrat Kumar Mahal',
+    title: 'Deputy Manager - Project (Execution)',
+    doj: '2 December 2026',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908788',
+    name: 'Dhananjay Sharma',
+    title: 'Manager - Civil Maintenance',
+    doj: '11 January 2027',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908789',
+    name: 'Abdulgani',
+    title: 'Assistant Manager (EHS)',
+    doj: '14 December 2026',
+    location: 'Coimbatore',
+    project: 'Coimbatore International Airport Master Expansion & New Terminal',
+    status: 'Documents Pending'
+  },
 ];
 
 const OfferVerification = () => {

@@ -1434,7 +1434,7 @@ export const offerVerificationData = [
     doj: '14 December 2026',
     location: 'Lucknow',
     project: 'Lucknow Metro Phase 2',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908763',
@@ -1578,7 +1578,7 @@ export const offerVerificationData = [
     doj: '25 January 2027',
     location: 'Jaipur',
     project: 'Jaipur Metro Phase 2 (Orange Line)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908779',
@@ -1596,7 +1596,7 @@ export const offerVerificationData = [
     doj: '25 November 2026',
     location: 'Jaipur',
     project: 'Jaipur Metro Phase 2 (Orange Line)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908781',
@@ -1679,6 +1679,42 @@ export const offerVerificationData = [
     project: 'Coimbatore International Airport Master Expansion & New Terminal',
     status: 'Documents Pending'
   },
+  {
+    olNo: 'SNSOL0908790',
+    name: 'Arjun Singh',
+    title: 'Quantity Surveyor Manager',
+    doj: '7 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908791',
+    name: 'Aman Kumar',
+    title: 'Project Manager (Civil)',
+    doj: '18 January 2027',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908792',
+    name: 'Avijeet Kamble',
+    title: 'Manager - Civil',
+    doj: '14 December 2026',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908793',
+    name: 'Sagar Kochale',
+    title: 'Senior Project Manager',
+    doj: '18 January 2027',
+    location: 'Mumbai',
+    project: 'Thane–Borivali Twin Tunnel Project',
+    status: 'Documents Pending'
+  }
 ];
 
 const OfferVerification = () => {

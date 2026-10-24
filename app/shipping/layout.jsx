@@ -1,4 +1,5 @@
 import './shipping.css';
+import ShippingClassMarker from './ShippingClassMarker';
 
 export default function ShippingLayout({ children }) {
   return (
@@ -9,6 +10,17 @@ export default function ShippingLayout({ children }) {
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@500;600;700;800&display=swap"
         rel="stylesheet"
       />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            if (typeof document !== 'undefined') {
+              document.documentElement.classList.add('is-shipping-subdomain');
+              if (document.body) document.body.classList.add('is-shipping-subdomain');
+            }
+          `,
+        }}
+      />
+      <ShippingClassMarker />
       <div className="shipping-portal-root min-h-screen bg-slate-50">{children}</div>
     </>
   );

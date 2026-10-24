@@ -6,3 +6,19 @@
   width: 100%;
   min-height: 100vh;
 }
+
+/* Instantly and unconditionally hide corporate navbar and footer on shipping portal in all modes (subdomain rewrite, SSR, CSR) */
+body:has(.shipping-portal-root) .navbar,
+body:has(.shipping-portal-root) .footer,
+body:has(.shipping-portal-root) footer,
+html.is-shipping-subdomain .navbar,
+html.is-shipping-subdomain .footer,
+html.is-shipping-subdomain footer,
+body.is-shipping-subdomain .navbar,
+body.is-shipping-subdomain .footer,
+body.is-shipping-subdomain footer,
+.app:has(.shipping-portal-root) > .navbar,
+.app:has(.shipping-portal-root) > .footer,
+.app:has(.shipping-portal-root) > footer {
+  display: none !important;
+}

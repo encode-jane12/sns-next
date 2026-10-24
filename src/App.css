@@ -1,3 +1,8 @@
 .app {
   width: 100%;
 }
+
+.shipping-main-wrapper {
+  width: 100%;
+  min-height: 100vh;
+}

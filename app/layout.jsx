@@ -1,5 +1,4 @@
-import Navbar from '@/src/components/Navbar/Navbar';
-import Footer from '@/src/components/Footer/Footer';
+import AppShell from '@/src/components/AppShell/AppShell';
 import '../src/index.css'; // Global reset and CSS variables
 import '../src/App.css'; // Global styles
 
@@ -36,13 +35,9 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <div className="app">
-          <Navbar />
-          <main>
-            {children}
-          </main>
-          <Footer />
-        </div>
+        <AppShell>
+          {children}
+        </AppShell>
       </body>
     </html>
   );

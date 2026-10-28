@@ -1623,7 +1623,7 @@ export const offerVerificationData = [
     doj: '25 November 2026',
     location: 'Bilaspur',
     project: 'Bhanupali–Bilaspur–Beri Broad-Gauge Rail Line',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908784',
@@ -1695,7 +1695,7 @@ export const offerVerificationData = [
     doj: '18 January 2027',
     location: 'Lucknow',
     project: 'Lucknow Metro Phase 2',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908792',
@@ -1830,6 +1830,24 @@ export const offerVerificationData = [
     doj: '15 February 2027',
     location: 'Coimbatore',
     project: 'Coimbatore International Airport Master Expansion & New Terminal',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908807',
+    name: 'ShunmugaSundaram S',
+    title: 'Senior MEP Manager',
+    doj: '28 December 2026',
+    location: 'Chennai',
+    project: 'Chennai Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908808',
+    name: 'Guthala Ravikumar',
+    title: 'Senior Environment Manager',
+    doj: '25 January 2027',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
     status: 'Documents Pending'
   }
 ];

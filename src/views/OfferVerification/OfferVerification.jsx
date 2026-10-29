@@ -1849,6 +1849,60 @@ export const offerVerificationData = [
     location: 'Bengaluru',
     project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908809',
+    name: 'Harishankar Lalji Kannaujiya',
+    title: 'Senior Lead Engineer (HSE)',
+    doj: '11 January 2027',
+    location: 'Mumbai',
+    project: 'Thane–Borivali Twin Tunnel Project',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908810',
+    name: 'Ajit Kumar Upadhyay',
+    title: 'Assistant Manager (Quality)',
+    doj: '21 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908811',
+    name: 'Sonera Sagar',
+    title: 'Assistant Project Manager',
+    doj: '11 January 2027',
+    location: 'Ahmedabad',
+    project: 'Sabarmati Riverfront Phase 3 (Indira Bridge to GIFT City)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908812',
+    name: 'Indraneel Paul',
+    title: 'Senior Project Coordinator',
+    doj: '2 February 2027',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908813',
+    name: 'Jitendra B Panpatil',
+    title: 'Senior Manager (EHS)',
+    doj: '18 January 2027',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908814',
+    name: 'Thippanna Thippanna',
+    title: 'Assistant Mechanical Manager (MEP)',
+    doj: '18 January 2027',
+    location: 'Chennai',
+    project: 'Chennai Metro Phase 2',
+    status: 'Documents Pending'
   }
 ];
 

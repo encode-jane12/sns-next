@@ -224,6 +224,7 @@ export const CONSIGNMENTS = {
       },
     ],
   },
+
   'SNS-BLR-GNO-231026': {
     id: 'SNS-BLR-GNO-231026',
     trackingNumber: 'SNS-BLR-GNO-231026',
@@ -316,6 +317,106 @@ export const CONSIGNMENTS = {
       },
     ],
   },
+
+  'SNS-UP-MTH-021126': {
+    id: 'SNS-UP-MTH-021126',
+    trackingNumber: 'SNS-UP-MTH-021126',
+    serviceType: 'Surface Express',
+    status: 'DISPATCHED',
+    statusBadgeColor: 'blue',
+    statusMessage: 'Consignment for Arpit Kumar is in transit to Mathura, Uttar Pradesh.',
+    deliverySlot: '20th November 2026',
+    deliverySlotHighlight: '20th November 2026',
+    arrivalStatusText: 'Arriving 20th November',
+    progressPercentage: 15,
+    grossWeight: '2.5 KG',
+    volumetricWeight: '2.5 KG',
+    weightDescription: '2.5 KG',
+    dispatchedDate: '25 Oct 2026',
+    dispatchedDateTime: '2nd November 2026',
+    expectedDelivery: '20th November 2026',
+    expectedDeliverySubtitle: 'On Schedule',
+    handlingTier: 'Standard Delivery',
+    handlingSubtext: 'Delivery to recipient address',
+    otp: '5831',
+
+    origin: {
+      name: 'Origin Dispatch Center',
+      facility: 'Origin Hub',
+      detail: 'Origin location not specified',
+      fullAddress: 'Origin location not specified',
+      city: 'Not specified',
+      state: 'Not specified',
+    },
+
+    destination: {
+      name: 'Mathura, Uttar Pradesh - 281206 (Destination)',
+      facility: 'Mathura Delivery Hub',
+      detail: 'Village Pavesara, Post Gudera, Block Raya',
+      pin: '281206',
+      location: 'Mathura',
+      fullAddress: 'Village Pavesara, Post Gudera, Block Raya, Mathura, Uttar Pradesh - 281206',
+    },
+
+    recipient: {
+      name: 'Arpit Kumar',
+      careOf: '',
+      landmark: '',
+      area: 'Village Pavesara, Post Gudera, Block Raya, Mathura',
+      stateWithPin: 'Uttar Pradesh — 281206',
+      pin: '281206',
+    },
+
+    executive: {
+      name: 'Delivery Associate',
+      initials: 'DA',
+      designation: 'Delivery Associate • Mathura Hub',
+      rating: '4.80',
+      totalDeliveries: '1,000+ deliveries',
+      vehicleNumber: 'UP 85 (Delivery Van)',
+      active: false,
+    },
+
+    support: {
+      hubName: 'Mathura Delivery Hub',
+      hubAddress: 'Mathura, Uttar Pradesh - 281206',
+      helpline: '',
+    },
+
+    milestones: [
+      {
+        id: 1,
+        title: 'Consignment Booked',
+        timestamp: '25 Oct 2026',
+        description: 'Consignment booked and prepared for dispatch.',
+        status: 'completed',
+      },
+      {
+        id: 2,
+        title: 'Dispatched from Origin Hub',
+        timestamp: '30 Oct 2026',
+        description: 'Consignment dispatched from Warehouse.',
+        status: 'active',
+      },
+      {
+        id: 3,
+        title: 'In Transit to Mathura',
+        timestamp: '09 Nov 2026',
+        description: 'Consignment is in transit following its dispatch.',
+        status: 'upcoming',
+        badge: 'IN TRANSIT',
+        highlight: 'Expected delivery: 20th November 2026',
+        subnote: '',
+      },
+      {
+        id: 4,
+        title: 'Delivered (Doorstep Handover)',
+        timestamp: 'Expected 20th November 2026',
+        description: 'Delivery to Arpit Kumar at the Mathura address.',
+        status: 'upcoming',
+      },
+    ],
+  },
 };
 
 // Helper function to find a consignment by ID (case-insensitive & whitespace trimmed)
@@ -344,4 +445,5 @@ export const DEMO_TRACKING_IDS = [
   { id: 'EXP-BLR-DHN-74192026', label: 'EXP-BLR-DHN-74192026', desc: 'Out for Delivery (Dhanbad, Jharkhand)' },
   { id: 'SNS-HYD-DEL-892026', label: 'SNS-HYD-DEL-892026', desc: 'In Transit (Hyderabad to New Delhi)' },
   { id: 'SNS-BLR-GNO-231026', label: 'SNS-BLR-GNO-231026', desc: 'In Transit (Bangalore to Greater Noida)' },
+  { id: 'SNS-UP-MTH-021126', label: 'SNS-UP-MTH-021126', desc: 'In Transit (Mathura, Uttar Pradesh)' },
 ];

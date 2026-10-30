@@ -1785,7 +1785,7 @@ export const offerVerificationData = [
     doj: '2 February 2027',
     location: 'Bengaluru',
     project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908802',
@@ -1903,7 +1903,52 @@ export const offerVerificationData = [
     location: 'Chennai',
     project: 'Chennai Metro Phase 2',
     status: 'Documents Pending'
-  }
+  },
+  {
+    olNo: 'SNSOL0908815',
+    name: 'Chirag Khambhu',
+    title: 'Project Manager (Electrical)',
+    doj: '14 December 2026',
+    location: 'Ahmedabad',
+    project: 'Sabarmati Riverfront Phase 3 (Indira Bridge to GIFT City)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908816',
+    name: 'Pankaj Kumar Patel',
+    title: 'Assistant Manager (Electrical)',
+    doj: '18 January 2027',
+    location: 'Patna',
+    project: 'Patna Metro Phase 1 (Underground Network: Line 1 & Line 2)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908817',
+    name: 'Sonu Siwach',
+    title: 'Senior Project Manager',
+    doj: '18 January 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908818',
+    name: 'Sunil Singh',
+    title: 'Manager',
+    doj: '14 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908819',
+    name: 'Mohit Shrivastava',
+    title: 'Senior Project Manager',
+    doj: '18 January 2027',
+    location: 'Lucknow',
+    project: 'Lucknow–Kanpur Expressway (NE-6 / NH-27 Integration & Spurs)',
+    status: 'Documents Pending'
+  },
 ];
 
 const OfferVerification = () => {

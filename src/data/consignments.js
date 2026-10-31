@@ -341,12 +341,12 @@ export const CONSIGNMENTS = {
     otp: '7212',
 
     origin: {
-      name: 'Origin Facility (Origin)',
-      facility: 'Origin Hub',
-      detail: 'Origin details not provided',
-      fullAddress: 'Origin details not provided',
-      city: '',
-      state: '',
+      name: 'Bangalore (Origin)',
+      facility: 'Bangalore Hub',
+      detail: 'Bangalore, Karnataka',
+      fullAddress: 'Bangalore, Karnataka',
+      city: 'Bangalore',
+      state: 'Karnataka',
     },
 
     destination: {
@@ -369,7 +369,7 @@ export const CONSIGNMENTS = {
 
     executive: {
       name: 'Lucky Verma',
-      initials: 'RV',
+      initials: 'LV',
       designation: 'Delivery Associate • Mathura Hub',
       rating: '4.8',
       totalDeliveries: '1,240+',

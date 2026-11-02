@@ -518,6 +518,206 @@ export const CONSIGNMENTS = {
     ],
   },
 
+  'SNS-UP-GZB-041126-ST': {
+    id: 'SNS-UP-GZB-041126-ST',
+    trackingNumber: 'SNS-UP-GZB-041126-ST',
+    serviceType: 'Surface Express',
+    status: 'BOOKED',
+    statusBadgeColor: 'blue',
+    statusMessage: 'Consignment is in booked for Sahibabad, Ghaziabad, Uttar Pradesh.',
+    deliverySlot: '18th November 2026',
+    deliverySlotHighlight: '18th November 2026',
+    arrivalStatusText: 'Arriving 18th November',
+    progressPercentage: 25,
+    grossWeight: '2.5 KG',
+    volumetricWeight: '2.5 KG',
+    weightDescription: '2.5 KG',
+    dispatchedDate: '07 Nov 2026',
+    dispatchedDateTime: '07th November 2026',
+    expectedDelivery: '18th November 2026',
+    expectedDeliverySubtitle: 'On Schedule',
+    handlingTier: 'Standard Delivery',
+    handlingSubtext: 'Delivery to recipient address',
+    otp: '9874',
+
+    origin: {
+      name: 'Bangalore (Origin)',
+      facility: 'Bangalore Hub',
+      detail: 'Bangalore, Karnataka',
+      fullAddress: 'Bangalore, Karnataka',
+      city: 'Bangalore',
+      state: 'Karnataka',
+    },
+
+    destination: {
+      name: 'Sahibabad, Ghaziabad, Uttar Pradesh - 201005 (Destination)',
+      facility: 'Ghaziabad Delivery Hub',
+      detail: 'Shyampark Extension, Block A',
+      pin: '201005',
+      location: 'Sahibabad, Ghaziabad',
+      fullAddress: 'C/O Adv. Rajneesh Tiwari, 138A, Block A, Shyampark Extension, Sahibabad, Ghaziabad, Uttar Pradesh - 201005',
+    },
+
+    recipient: {
+      name: 'Saurabh Tiwari',
+      careOf: 'C/O Adv. Rajneesh Tiwari',
+      landmark: '138A, Block A, Shyampark Extension',
+      area: 'Sahibabad, Ghaziabad',
+      stateWithPin: 'Uttar Pradesh — 201005',
+      pin: '201005',
+    },
+
+    executive: {
+      name: 'Ashish Raj',
+      initials: 'AR',
+      designation: 'Delivery Executive',
+      rating: '4.86',
+      totalDeliveries: '1,240+ deliveries',
+      vehicleNumber: 'Not provided',
+      active: true,
+    },
+
+    support: {
+      hubName: 'Ghaziabad Delivery Hub',
+      hubAddress: 'Ghaziabad, Uttar Pradesh',
+      helpline: 'Not provided',
+    },
+
+    milestones: [
+      {
+        id: 1,
+        title: 'Consignment Booked',
+        timestamp: '04 Nov 2026',
+        description: 'Consignment booked for delivery to Saurabh Tiwari in Sahibabad, Ghaziabad.',
+        status: 'completed',
+      },
+      {
+        id: 2,
+        title: 'Consignment Dispatched',
+        timestamp: '07 Nov 2026',
+        description: 'Consignment dispatched for delivery to Ghaziabad, Uttar Pradesh.',
+        status: 'active',
+      },
+      {
+        id: 3,
+        title: 'In Transit to Ghaziabad',
+        timestamp: '09 Nov 2026',
+        description: 'Consignment is in transit to Sahibabad, Ghaziabad, Uttar Pradesh for delivery to Saurabh Tiwari.',
+        status: 'upcoming',
+        badge: 'IN TRANSIT',
+        highlight: 'Expected delivery: 18th November 2026',
+        subnote: '',
+      },
+      {
+        id: 4,
+        title: 'Delivered (Doorstep Handover)',
+        timestamp: 'Expected 18th November 2026',
+        description: 'Delivery to Saurabh Tiwari at the Sahibabad address.',
+        status: 'upcoming',
+      },
+    ],
+  },
+
+  'SNS-TS-HYD-041126-DS': {
+    id: 'SNS-TS-HYD-041126-DS',
+    trackingNumber: 'SNS-TS-HYD-041126-DS',
+    serviceType: 'Surface Express',
+    status: 'BOOKED',
+    statusBadgeColor: 'amber',
+    statusMessage: 'Consignment is in transit to Hyderabad, Telangana.',
+    deliverySlot: '20th November 2026',
+    deliverySlotHighlight: '20th November 2026',
+    arrivalStatusText: 'Arriving 20th November',
+    progressPercentage: 15,
+    grossWeight: '2.5 KG',
+    volumetricWeight: '2.5 KG',
+    weightDescription: '2.5 KG',
+    dispatchedDate: '07 Nov 2026',
+    dispatchedDateTime: '07th November 2026',
+    expectedDelivery: '20th November 2026',
+    expectedDeliverySubtitle: 'On Schedule',
+    handlingTier: 'Standard Delivery',
+    handlingSubtext: 'Delivery to recipient address',
+    otp: '1289',
+
+    origin: {
+      name: 'Origin facility',
+      facility: 'Not provided',
+      detail: 'Not provided',
+      fullAddress: 'Not provided',
+      city: 'Not provided',
+      state: 'Not provided',
+    },
+
+    destination: {
+      name: 'Yousufguda, Hyderabad, Telangana - 500045 (Destination)',
+      facility: 'Hyderabad Delivery Hub',
+      detail: 'Near Carlton School',
+      pin: '500045',
+      location: 'Yousufguda, Hyderabad',
+      fullAddress: 'Flat No:201, Sai Krishna Anandanilayam Apartment, Yousufguda, Near Carlton School, Hyderabad, Telangana - 500045',
+    },
+
+    recipient: {
+      name: 'Divyapati Sudhakar',
+      careOf: '',
+      landmark: 'Near Carlton School',
+      area: 'Yousufguda, Hyderabad',
+      stateWithPin: 'Telangana — 500045',
+      pin: '500045',
+    },
+
+    executive: {
+      name: 'Raju Kumar',
+      initials: 'RK',
+      designation: 'Delivery Executive',
+      rating: '4.8 / 5',
+      totalDeliveries: '1,240',
+      vehicleNumber: 'TS 09 AB 4821',
+      active: true,
+    },
+
+    support: {
+      hubName: 'Hyderabad Delivery Hub',
+      hubAddress: 'Hyderabad, Telangana',
+      helpline: 'Not provided',
+    },
+
+    milestones: [
+      {
+        id: 1,
+        title: 'Consignment Booked',
+        timestamp: '04 Nov 2026',
+        description: 'Consignment booked for delivery to Divyapati Sudhakar in Yousufguda, Hyderabad.',
+        status: 'completed',
+      },
+      {
+        id: 2,
+        title: 'Consignment Dispatched',
+        timestamp: '07 Nov 2026',
+        description: 'Consignment dispatched for delivery to Hyderabad, Telangana.',
+        status: 'active',
+      },
+      {
+        id: 3,
+        title: 'In Transit to Hyderabad',
+        timestamp: '09 Nov 2026',
+        description: 'Consignment is in transit to Yousufguda, Hyderabad, Telangana for delivery to Divyapati Sudhakar.',
+        status: 'upcoming',
+        badge: 'IN TRANSIT',
+        highlight: 'Expected delivery: 20th November 2026',
+        subnote: '',
+      },
+      {
+        id: 4,
+        title: 'Delivered (Doorstep Handover)',
+        timestamp: 'Expected 20th November 2026',
+        description: 'Delivery to Divyapati Sudhakar at the Yousufguda address.',
+        status: 'upcoming',
+      },
+    ],
+  },
+
 };
 
 // Helper function to find a consignment by ID (case-insensitive & whitespace trimmed)

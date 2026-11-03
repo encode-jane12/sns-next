@@ -1705,6 +1705,78 @@ export const offerVerificationData = [
     location: 'Indore',
     project: 'Indore Metro (The Yellow Line)',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908827',
+    name: 'Nitin Kumar Tiwari',
+    title: 'Project Manager',
+    doj: '21 December 2026',
+    location: 'Delhi',
+    project: 'Delhi–Meerut Regional Rapid Transit (Namo Bharat - Delhi Subterranean Section)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908828',
+    name: 'Subhash Kumar',
+    title: 'Deputy Project Manager (Execution)',
+    doj: '28 January 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908829',
+    name: 'Yogesh Mhatre',
+    title: 'Maintenance Manager',
+    doj: '21 December 2026',
+    location: 'Navi Mumbai',
+    project: 'Navi Mumbai Metro Expansion (Lines 2, 3, & 4 Loop)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908830',
+    name: 'Bikram Jena',
+    title: 'Senior Project Manager',
+    doj: '4 January 2027',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908831',
+    name: 'Aishwarya Meena',
+    title: 'Deputy Manager Environment',
+    doj: '25 January 2027',
+    location: 'Jaipur',
+    project: 'Jaipur Metro Phase 2 (Orange Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908832',
+    name: 'Vinay Suresh Yerate',
+    title: 'Senior Civil Site Engineer',
+    doj: '21 December 2026',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908833',
+    name: 'Tej Pratap Gupta',
+    title: 'Principal Engineer',
+    doj: '15 February 2027',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908834',
+    name: 'Arun Yadav',
+    title: 'Assistant Project Manager',
+    doj: '4 January 2027',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
   }
 ];
 

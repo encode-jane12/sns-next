@@ -1777,6 +1777,87 @@ export const offerVerificationData = [
     location: 'Lucknow',
     project: 'Lucknow Metro Phase 2',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908835',
+    name: 'Ravi Ranjan Kumar',
+    title: 'Assistant Manager (EHS)',
+    doj: '4 January 2027',
+    location: 'Patna',
+    project: 'Patna Metro Phase 1 (Underground Network: Line 1 & Line 2)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908836',
+    name: 'Abdul Nizam',
+    title: 'Lead MEP Engineer',
+    doj: '21 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908837',
+    name: 'Sandip Awasare',
+    title: 'Assistant Manager (Electrical)',
+    doj: '25 January 2027',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908838',
+    name: 'Deepak Verma',
+    title: 'Deputy Manager (EHS)',
+    doj: '22 February 2027',
+    location: 'Varanasi',
+    project: 'The Ganga River Elevated Corridor',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908839',
+    name: 'Abhishek Dabhade',
+    title: 'Principal Engineer',
+    doj: '21 December 2026',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908840',
+    name: 'Jay Prakash Kumar',
+    title: 'Deputy Manager (Civil)',
+    doj: '11 January 2027',
+    location: 'Patna',
+    project: 'Patna Metro Phase 1 (Underground Network: Line 1 & Line 2)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908841',
+    name: 'Muthuraj',
+    title: 'Senior QA/QC Engineer',
+    doj: '4 January 2027',
+    location: 'Chennai',
+    project: 'Chennai Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908842',
+    name: 'Pradip Budhwant',
+    title: 'Senior Site Executive',
+    doj: '28 December 2026',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908843',
+    name: 'Saddam Hussan',
+    title: 'Deputy Manager ( Project )',
+    doj: '4 January 2027',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
   }
 ];
 

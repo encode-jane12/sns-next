@@ -1731,7 +1731,7 @@ export const offerVerificationData = [
     doj: '21 December 2026',
     location: 'Navi Mumbai',
     project: 'Navi Mumbai Metro Expansion (Lines 2, 3, & 4 Loop)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908830',
@@ -1858,7 +1858,79 @@ export const offerVerificationData = [
     location: 'Lucknow',
     project: 'Lucknow Metro Phase 2',
     status: 'Documents Pending'
-  }
+  },
+  {
+    olNo: 'SNSOL0908844',
+    name: 'Nitin Raibole',
+    title: 'Senior Project Manager (Water Supply)',
+    doj: '18 January 2027',
+    location: 'Pune',
+    project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908845',
+    name: 'Sandeep Gupta',
+    title: 'Deputy Manager (Mechanical)',
+    doj: '25 January 2027',
+    location: 'Bhopal',
+    project: 'Western Bhopal 4-Lane Bypass (NH-46 to SH-28 Ring Link)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908846',
+    name: 'Vasanthraj G',
+    title: 'Senior Project Manager',
+    doj: '21 December 2026',
+    location: 'Chennai',
+    project: 'Chennai Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908847',
+    name: 'Akash Hossain Majumder',
+    title: 'Senior Civil Engineer',
+    doj: '21 December 2026',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908848',
+    name: 'Seshubabu Bellamkonda',
+    title: 'Senior Facility Manager',
+    doj: '21 December 2026',
+    location: 'Vijayawada',
+    project: 'Bengaluru–Vijayawada Greenfield Economic Corridor (NH-544G)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908849',
+    name: 'Junaid Abass',
+    title: 'Deputy Manager - EHS',
+    doj: '25 January 2027',
+    location: 'Srinagar',
+    project: 'Srinagar International Airport (Sheikh ul-Alam) Master Expansion',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908850',
+    name: 'Vikash Pandey',
+    title: 'Senior HSE Specialist',
+    doj: '21 December 2026',
+    location: 'Patna',
+    project: 'Patna Metro Phase 1 (Underground Network: Line 1 & Line 2)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908851',
+    name: 'K Sanjay',
+    title: 'Deputy Construction Manager',
+    doj: '22 February 2027',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
 ];
 
 const OfferVerification = () => {

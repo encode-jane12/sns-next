@@ -1695,7 +1695,7 @@ export const offerVerificationData = [
     doj: '15 February 2027',
     location: 'Kolkata',
     project: 'Kolkata Metro Line 3 (Purple Line)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908826',
@@ -1785,7 +1785,7 @@ export const offerVerificationData = [
     doj: '4 January 2027',
     location: 'Patna',
     project: 'Patna Metro Phase 1 (Underground Network: Line 1 & Line 2)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908836',
@@ -1866,7 +1866,7 @@ export const offerVerificationData = [
     doj: '18 January 2027',
     location: 'Pune',
     project: 'Pune Metro Phase 2 (Line 4 & Line 4A Extensions)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908845',
@@ -1902,7 +1902,7 @@ export const offerVerificationData = [
     doj: '21 December 2026',
     location: 'Vijayawada',
     project: 'Bengaluru–Vijayawada Greenfield Economic Corridor (NH-544G)',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908849',
@@ -1931,6 +1931,42 @@ export const offerVerificationData = [
     project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
     status: 'Documents Pending'
   },
+  {
+    olNo: 'SNSOL0908852',
+    name: 'Abudin Khan',
+    title: 'Deputy Manager',
+    doj: '18 January 2027',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908853',
+    name: 'Amit Kumar Das',
+    title: 'Assistant Manager (Project)',
+    doj: '11 January 2027',
+    location: 'Kolkata',
+    project: 'Kolkata Airport Expansion (Phase II)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908854',
+    name: 'Gourab Chowdhuri',
+    title: 'Assistant Manager (Electrical)',
+    doj: '11 January 2027',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908855',
+    name: 'Epaphra Dev Deta',
+    title: 'Deputy Manager Civil Execution',
+    doj: '11 January 2027',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  }
 ];
 
 const OfferVerification = () => {

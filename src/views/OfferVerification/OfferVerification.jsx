@@ -1966,6 +1966,60 @@ export const offerVerificationData = [
     location: 'Hyderabad',
     project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908856',
+    name: 'Ravi Kumar',
+    title: 'Principal Engineer',
+    doj: '25 January 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908857',
+    name: 'Binoy Thomas',
+    title: 'Deputy Manager',
+    doj: '22 February 2027',
+    location: 'Chennai',
+    project: 'Chennai Port–Maduravoyal Double-Decker Elevated Expressway',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908858',
+    name: 'Shanmugam Thangavel',
+    title: 'Manager (Mechanical)',
+    doj: '22 February 2027',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908859',
+    name: 'Jitendra Chauhan',
+    title: 'Assistant Manager (Project)',
+    doj: '21 December 2026',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908860',
+    name: 'Siva Bala Prasad',
+    title: 'Assistant Project Manager',
+    doj: '28 December 2026',
+    location: 'Vishakhapatnam',
+    project: 'Visakhapatnam Metro Rail (Phase 1)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908861',
+    name: 'Pravesh Mishra',
+    title: 'Deputy Manager (Civil)',
+    doj: '21 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
   }
 ];
 

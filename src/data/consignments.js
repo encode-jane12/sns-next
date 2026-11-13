@@ -918,6 +918,106 @@ export const CONSIGNMENTS = {
     ],
   },
 
+  'SNS-JAM-261126-AH': {
+    id: 'SNS-JAM-261126-AH',
+    trackingNumber: 'SNS-JAM-261126-AH',
+    serviceType: 'Surface Express',
+    status: 'DISPATCHED',
+    statusBadgeColor: 'amber',
+    statusMessage: 'Consignment dispatched for delivery to Ashiq Hussain Dar in Bahu Fort, Jammu.',
+    deliverySlot: '26th November 2026',
+    deliverySlotHighlight: '26th November 2026',
+    arrivalStatusText: 'Arriving 26th November',
+    progressPercentage: 25,
+    grossWeight: '2.5 KG',
+    volumetricWeight: '2.5 KG',
+    weightDescription: '2.5 KG',
+    dispatchedDate: '13th November 2026',
+    dispatchedDateTime: '',
+    expectedDelivery: '26th November 2026',
+    expectedDeliverySubtitle: 'On Schedule',
+    handlingTier: 'Standard Delivery',
+    handlingSubtext: 'Delivery to recipient address',
+    otp: '0434',
+
+origin: {
+      name: 'Bangalore (Origin)',
+      facility: 'Bangalore Hub',
+      detail: 'Bangalore, Karnataka',
+      fullAddress: 'Bangalore, Karnataka',
+      city: 'Bangalore',
+      state: 'Karnataka',
+    },
+
+    destination: {
+      name: 'Bahu Fort, Jammu, Jammu and Kashmir - 180006 (Destination)',
+      facility: 'Not provided',
+      detail: 'Masjid Mohalla, Near Upper Parking facility',
+      pin: '180006',
+      location: 'Bahu Fort, Jammu, Jammu and Kashmir',
+      fullAddress: 'H/O Anwar Lone, Masjid Mohalla, Near Upper Parking facility, Bahu Fort, Jammu, Jammu and Kashmir - 180006',
+    },
+
+    recipient: {
+      name: 'Ashiq Hussain Dar',
+      careOf: 'H/O Anwar Lone',
+      landmark: 'Near Upper Parking facility',
+      area: 'Masjid Mohalla, Bahu Fort, Jammu',
+      stateWithPin: 'Jammu and Kashmir — 180006',
+      pin: '180006',
+    },
+
+    executive: {
+      name: 'Rohit Nandy',
+      initials: 'RN',
+      designation: 'Delivery Executive',
+      rating: '4.8',
+      totalDeliveries: '1,284',
+      vehicleNumber: 'JK02AB4587',
+      active: true,
+    },
+
+    support: {
+      hubName: 'Not provided',
+      hubAddress: 'Jammu and Kashmir',
+      helpline: 'Not provided',
+    },
+
+    milestones: [
+      {
+        id: 1,
+        title: 'Consignment Booked',
+        timestamp: '9th November 2026',
+        description: 'Consignment booked for delivery to Ashiq Hussain Dar at Bahu Fort, Jammu.',
+        status: 'completed',
+      },
+      {
+        id: 2,
+        title: 'Consignment Dispatched',
+        timestamp: 'Today',
+        description: 'Consignment dispatched for Jammu.',
+        status: 'active',
+      },
+      {
+        id: 3,
+        title: 'In Transit to Jammu',
+        timestamp: 'Upcoming',
+        description: 'Consignment will be in transit to Jammu, Jammu and Kashmir.',
+        status: 'upcoming',
+        badge: 'IN TRANSIT',
+        highlight: 'Expected delivery: 26th November 2026',
+        subnote: '',
+      },
+      {
+        id: 4,
+        title: 'Delivered (Doorstep Handover)',
+        timestamp: 'Expected 26th November 2026',
+        description: 'Delivery to Ashiq Hussain Dar at the Bahu Fort address.',
+        status: 'upcoming',
+      },
+    ],
+  },
+
 };
 
 // Helper function to find a consignment by ID (case-insensitive & whitespace trimmed)

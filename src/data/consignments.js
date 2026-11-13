@@ -818,6 +818,106 @@ export const CONSIGNMENTS = {
     ],
   },
 
+  'SNS-GJ-JOL-261126-MG': {
+    id: 'SNS-GJ-JOL-261126-MG',
+    trackingNumber: 'SNS-GJ-JOL-261126-MG',
+    serviceType: 'Surface Express',
+    status: 'DISPATCHED',
+    statusBadgeColor: 'amber',
+    statusMessage: 'Consignment dispatched for delivery to Muthukumarasamy G in Jolva, Gujarat.',
+    deliverySlot: '26th November 2026',
+    deliverySlotHighlight: '26th November 2026',
+    arrivalStatusText: 'Arriving 26th November',
+    progressPercentage: 25,
+    grossWeight: '2.5 KG',
+    volumetricWeight: '2.5 KG',
+    weightDescription: '2.5 KG',
+    dispatchedDate: '13th November 2026',
+    dispatchedDateTime: '',
+    expectedDelivery: '26th November 2026',
+    expectedDeliverySubtitle: 'On Schedule',
+    handlingTier: 'Standard Delivery',
+    handlingSubtext: 'Delivery to recipient address',
+    otp: '8734',
+
+    origin: {
+      name: 'Bangalore (Origin)',
+      facility: 'Bangalore Hub',
+      detail: 'Bangalore, Karnataka',
+      fullAddress: 'Bangalore, Karnataka',
+      city: 'Bangalore',
+      state: 'Karnataka',
+    },
+
+    destination: {
+      name: 'Jolva, Gujarat - 392135 (Destination)',
+      facility: 'Not provided',
+      detail: 'A-12, Saffron City',
+      pin: '392135',
+      location: 'Jolva, Gujarat',
+      fullAddress: 'A-12, Saffron City, Jolva, Gujarat - 392135',
+    },
+
+    recipient: {
+      name: 'Muthukumarasamy G',
+      careOf: '',
+      landmark: 'Saffron City',
+      area: 'Jolva',
+      stateWithPin: 'Gujarat — 392135',
+      pin: '392135',
+    },
+
+    executive: {
+      name: 'Arun Kumar',
+      initials: 'AK',
+      designation: 'Delivery Executive',
+      rating: '4.8 / 5',
+      totalDeliveries: '1,284',
+      vehicleNumber: 'GJ 05 AB 7421',
+      active: true,
+    },
+
+    support: {
+      hubName: 'Not provided',
+      hubAddress: 'Gujarat',
+      helpline: 'Not provided',
+    },
+
+    milestones: [
+      {
+        id: 1,
+        title: 'Consignment Booked',
+        timestamp: '06th November 2026',
+        description: 'Consignment booked for delivery to Muthukumarasamy G at A-12, Saffron City, Jolva, Gujarat.',
+        status: 'completed',
+      },
+      {
+        id: 2,
+        title: 'Consignment Dispatched',
+        timestamp: '13th November 2026',
+        description: 'Consignment dispatched for delivery to Jolva, Gujarat.',
+        status: 'active',
+      },
+      {
+        id: 3,
+        title: 'In Transit to Jolva',
+        timestamp: '20th November 2026',
+        description: 'Consignment will be in transit to Jolva, Gujarat.',
+        status: 'upcoming',
+        badge: 'IN TRANSIT',
+        highlight: 'Expected delivery: 26th November 2026',
+        subnote: '',
+      },
+      {
+        id: 4,
+        title: 'Delivered (Doorstep Handover)',
+        timestamp: 'Expected 26th November 2026',
+        description: 'Delivery to Muthukumarasamy G at the Jolva address.',
+        status: 'upcoming',
+      },
+    ],
+  },
+
 };
 
 // Helper function to find a consignment by ID (case-insensitive & whitespace trimmed)

@@ -2209,6 +2209,51 @@ export const offerVerificationData = [
     location: 'Kolkata',
     project: 'Kolkata Metro Line 3 (Purple Line)',
     status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908884',
+    name: 'Rajesh Roshan',
+    title: 'Senior Quality Manager',
+    doj: '18 January 2027',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908885',
+    name: 'Ridoon Raman Khargharia',
+    title: 'Senior Project Manager',
+    doj: '28 December 2026',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908886',
+    name: 'Tamboli Shajahan',
+    title: 'Project Deputy Manager',
+    doj: '28 December 2026',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908887',
+    name: 'Saroj Kumar Sharma',
+    title: 'Deputy Manager Safety',
+    doj: '1 February 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908888',
+    name: 'Lakshman Kumar Godasi',
+    title: 'Senior Planning Engineer',
+    doj: '25 January 2027',
+    location: 'Hyderabad',
+    project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
   }
 ];
 

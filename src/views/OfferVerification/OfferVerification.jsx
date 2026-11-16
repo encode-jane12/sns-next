@@ -2055,7 +2055,7 @@ export const offerVerificationData = [
     doj: '11 January 2027',
     location: 'Mumbai',
     project: 'Thane–Borivali Twin Tunnel Project',
-    status: 'Documents Pending'
+    status: 'Verification Ongoing'
   },
   {
     olNo: 'SNSOL0908866',
@@ -2253,6 +2253,33 @@ export const offerVerificationData = [
     doj: '25 January 2027',
     location: 'Hyderabad',
     project: 'Hyderabad Metro Phase 2 (Airport & Radial Corridors)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908889',
+    name: 'Duddukunta Mahesh Reddy',
+    title: 'Environmental Manager',
+    doj: '1 February 2027',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908890',
+    name: 'Mohammad Aquib',
+    title: 'Assistant Project Manager (Civil)',
+    doj: '18 January 2027',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908891',
+    name: 'Vivek Sahu',
+    title: 'EHS Manager',
+    doj: '18 January 2027',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
     status: 'Documents Pending'
   }
 ];

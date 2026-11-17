@@ -7,6 +7,11 @@
   min-height: 100vh;
 }
 
+.maintenance-wrapper {
+  width: 100%;
+  min-height: 100vh;
+}
+
 /* Instantly and unconditionally hide corporate navbar and footer on shipping portal in all modes (subdomain rewrite, SSR, CSR) */
 body:has(.shipping-portal-root) .navbar,
 body:has(.shipping-portal-root) .footer,
@@ -20,5 +25,21 @@ body.is-shipping-subdomain footer,
 .app:has(.shipping-portal-root) > .navbar,
 .app:has(.shipping-portal-root) > .footer,
 .app:has(.shipping-portal-root) > footer {
+  display: none !important;
+}
+
+/* Instantly and unconditionally hide corporate navbar and footer in maintenance mode */
+body:has(.maintenance-root) .navbar,
+body:has(.maintenance-root) .footer,
+body:has(.maintenance-root) footer,
+html.is-maintenance .navbar,
+html.is-maintenance .footer,
+html.is-maintenance footer,
+body.is-maintenance .navbar,
+body.is-maintenance .footer,
+body.is-maintenance footer,
+.app:has(.maintenance-root) > .navbar,
+.app:has(.maintenance-root) > .footer,
+.app:has(.maintenance-root) > footer {
   display: none !important;
 }

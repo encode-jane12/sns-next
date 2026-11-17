@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import Navbar from '@/src/components/Navbar/Navbar';
 import Footer from '@/src/components/Footer/Footer';
+import { MAINTENANCE_MODE } from '@/src/config/maintenance';
 
 export default function AppShell({ children }) {
   const pathname = usePathname();
@@ -20,6 +21,12 @@ export default function AppShell({ children }) {
       }
     }
   }, []);
+
+  // When maintenance mode is active or visitor is on /maintenance:
+  // Strictly hide corporate Navbar and Footer so no other pages can be navigated to
+  if (MAINTENANCE_MODE || pathname === '/maintenance') {
+    return <main className="maintenance-wrapper">{children}</main>;
+  }
 
   const isShippingPortal =
     isSubdomain ||

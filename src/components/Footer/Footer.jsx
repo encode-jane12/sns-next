@@ -81,17 +81,17 @@ const Footer = () => {
               279 L, Shivaji Market, Model Town<br />
               Panipat, Haryana - 132103, India
             </div>
-
+{/* 
             <div className="footer__address">
               <strong>Indian Office (Bengaluru)</strong><br />
               Unit No. 502, 5th Floor, Tower C Centennial<br />
               16B, 7th Cross Rd, Whitefield, EPIP Zone<br />
               Brookfield, Bengaluru - 560066
-            </div>
+            </div> */}
 
             <div className="footer__nums">
-              <p>+91 8045271320</p>
-              <p>+91 8045271321</p>
+              <p>+91 8045271361</p>
+              <p>+91 8045271362</p>
             </div>
 
             <div className="footer__emails">

@@ -2281,7 +2281,178 @@ export const offerVerificationData = [
     location: 'Kolkata',
     project: 'Kolkata Metro Line 3 (Purple Line)',
     status: 'Documents Pending'
-  }
+  },
+  {
+    olNo: 'SNSOL0908892',
+    name: 'Javed Khan',
+    title: 'Project Deputy Manager',
+    doj: '29 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908893',
+    name: 'Sahanaj SK',
+    title: 'Deputy Project Manager (Civil)',
+    doj: '8 March 2027',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908894',
+    name: 'Ravi Shankar Kumar',
+    title: 'Deputy Manager',
+    doj: '20 January 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908895',
+    name: 'Shubham Tripathi',
+    title: 'Deputy Project Manager',
+    doj: '18 January 2027',
+    location: 'Lucknow',
+    project: 'Lucknow Metro Phase 2',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908896',
+    name: 'Akshit Sharma',
+    title: 'Senior Project Coordinator',
+    doj: '18 January 2027',
+    location: 'Gurugram',
+    project: 'Gurugram Metro Rail Extension (HUDA City Centre to Cyber City Ring)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908897',
+    name: 'Amarnath Gupta',
+    title: 'Assistant Manager (Quality)',
+    doj: '8 February 2027',
+    location: 'Bhopal',
+    project: 'Bhopal Metro Phase 1 (Blue Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908898',
+    name: 'Mohd Shaheem Akhtar Ansari',
+    title: 'Assistant Project Manager (Civil)',
+    doj: '18 January 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908899',
+    name: 'Bhavin Ugale',
+    title: 'Senior Project Coordinator',
+    doj: '28 December 2026',
+    location: 'Mumbai',
+    project: 'Thane–Borivali Twin Tunnel Project',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908900',
+    name: 'Samrudh Patila',
+    title: 'Deputy Manager - Civil & Project',
+    doj: '25 January 2027',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908901',
+    name: 'Vaibhav Rai',
+    title: 'Senior Quantity Surveyor',
+    doj: '28 December 2026',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908902',
+    name: 'Vikrant',
+    title: 'Deputy Project Manager',
+    doj: '18 January 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908903',
+    name: 'Malay Kumar Roul',
+    title: 'Deputy Manager - Projects',
+    doj: '1 March 2027',
+    location: 'Mumbai',
+    project: 'Thane–Borivali Twin Tunnel Project',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908904',
+    name: 'Nilesh Kumar',
+    title: 'Assistant Manager (Quality)',
+    doj: '25 January 2027',
+    location: 'Kolkata',
+    project: 'Kolkata Metro Line 3 (Purple Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908905',
+    name: 'Kishen Kumar',
+    title: 'Deputy Manager - Planning',
+    doj: '1 March 2027',
+    location: 'Bengaluru',
+    project: 'Bengaluru Suburban Rail Project (BSRP - Corridors 2 & 4)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908906',
+    name: 'MD Faruk Ansari',
+    title: 'Deputy Manager - EHS',
+    doj: '25 January 2027',
+    location: 'Delhi',
+    project: 'Delhi Metro Phase 4 (Golden Line Extension)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908907',
+    name: 'Aman Tripathi',
+    title: 'Deputy Project Manager',
+    doj: '22 February 2027',
+    location: 'Bhopal',
+    project: 'Bhopal Metro Phase 1 (Blue Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908908',
+    name: 'Sumer Singh',
+    title: 'Senior Safety Engineer',
+    doj: '8 March 2027',
+    location: 'Bhopal',
+    project: 'Bhopal Metro Phase 1 (Blue Line)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908909',
+    name: 'Harish Sain',
+    title: 'Senior Electrical Engineer',
+    doj: '4 January 2027',
+    location: 'Gurugram',
+    project: 'Gurugram Metro Rail Extension (HUDA City Centre to Cyber City Ring)',
+    status: 'Documents Pending'
+  },
+  {
+    olNo: 'SNSOL0908910',
+    name: 'Nikhil Bharatbhai Kakadiya',
+    title: 'Deputy Construction Manager',
+    doj: '15 March 2027',
+    location: 'Surat',
+    project: 'Surat Metro Phase 1 (Underground Corridors & Remaining Spans)',
+    status: 'Documents Pending'
+  },
 ];
 
 const OfferVerification = () => {
